@@ -498,6 +498,1111 @@ CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/t
   /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/task.h \
   /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/timers.h
 
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/reent.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/lock.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_locale.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/strings.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/select.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_sigset.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timeval.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_pthreadtypes.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/sched.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/reent.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/lock.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_locale.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/strings.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/select.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_sigset.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timeval.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_pthreadtypes.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/sched.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/dcd.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/reent.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/lock.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_locale.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/strings.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/select.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_sigset.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timeval.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_pthreadtypes.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/sched.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/dcd.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/reent.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/lock.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_locale.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/strings.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/select.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_sigset.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timeval.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_pthreadtypes.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/sched.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/reent.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/lock.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_locale.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/strings.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/select.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_sigset.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timeval.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_pthreadtypes.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/sched.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/dcd.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/reent.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/lock.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/stdlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/alloca.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_locale.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/strings.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/select.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_sigset.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timeval.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_pthreadtypes.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/sched.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/reent.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/lock.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_locale.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/strings.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/select.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_sigset.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timeval.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_pthreadtypes.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/sched.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h
+
 CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
@@ -1077,6 +2182,47 @@ CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
 
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ssi.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/ssi.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ioqspi.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h
+
 CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
@@ -1602,6 +2748,58 @@ CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
 
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h
+
 CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c \
   /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/string.h \
   /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
@@ -2118,11 +3316,297 @@ CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
-  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
-  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/reent.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/lock.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_locale.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/strings.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/select.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_sigset.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timeval.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_pthreadtypes.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/sched.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_usb_reset_interface/include/pico/usb_reset_interface.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/reent.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/lock.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_locale.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/strings.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/select.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_sigset.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timeval.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_pthreadtypes.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/sched.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h
+
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/reent.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/lock.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_locale.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/strings.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/select.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_sigset.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timeval.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_pthreadtypes.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/sched.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_usb_reset_interface/include/pico/usb_reset_interface.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
 
 CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
@@ -2178,16 +3662,20 @@ CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
-  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h
 
-CMakeFiles/blink.dir/main.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/scheduler/main.c \
-  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
+CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
@@ -2220,6 +3708,68 @@ CMakeFiles/blink.dir/main.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/sche
   /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
+
+CMakeFiles/blink.dir/main.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/scheduler/main.c \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_newlib_version.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/reent.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/lock.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_locale.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/strings.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/string.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_endian.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/select.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_sigset.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timeval.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timespec.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_pthreadtypes.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/sched.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/types.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/stdio.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/stdlib.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/alloca.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
+  /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
+  generated/pico_base/pico/version.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/include/pico/time.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
@@ -2240,7 +3790,7 @@ CMakeFiles/blink.dir/main.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/sche
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
   /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
-  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
   /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/FreeRTOS.h \
   /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/projdefs.h \
   /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/portable.h \
@@ -2250,93 +3800,77 @@ CMakeFiles/blink.dir/main.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/sche
   /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/mpu_wrappers.h \
   /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/task.h \
   /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/list.h \
-  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/queue.h \
-  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/task.h
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/message_buffer.h \
+  /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/stream_buffer.h
 
 
 /Users/daniel.sierra/Desktop/freertos-pico/scheduler/main.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_usb_reset_interface/include/pico/usb_reset_interface.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
 
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h:
 
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c:
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp:
-
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/stdio.h:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/boot_stage2/include/boot_stage2/config.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
 
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/unistd.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h:
-
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/unistd.h:
-
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/times.h:
 
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_time.h:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/time.h:
+
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/time.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sysinfo.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c:
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/FreeRTOS.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/sem.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c:
 
-generated/pico_base/pico/config_autogen.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
-
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/types.h:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_sigset.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h:
 
@@ -2344,31 +3878,49 @@ generated/pico_base/pico/config_autogen.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c:
-
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/float.h:
-
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/ssi.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_locale.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c:
 
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h:
+
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/padsbank0.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
 
@@ -2376,13 +3928,7 @@ generated/pico_base/pico/config_autogen.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
-
-/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h:
 
@@ -2404,29 +3950,21 @@ generated/pico_base/pico/config_autogen.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/limits.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h:
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/sched.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_pthreadtypes.h:
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timespec.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/timespec.h:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h:
-
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c:
 
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h:
 
@@ -2434,27 +3972,147 @@ generated/pico_base/pico/config_autogen.h:
 
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_endian.h:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/endian.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_locale.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/stdlib.h:
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/timespec.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/time.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h:
 
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timeval.h:
 
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_private.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/math.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/types.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/syslimits.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/stdio.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/sched.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ioqspi.h:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_pthreadtypes.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_timespec.h:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_sigset.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/endian.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/strings.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include/pico/fix/rp2040_usb_device_enumeration.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/lock.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/sem.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/FreeRTOS.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb_option.h:
+
 /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c:
 
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/cdefs.h:
 
@@ -2466,13 +4124,7 @@ generated/pico_base/pico/config_autogen.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/queue.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
-
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/cstdlib:
-
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/time.h:
-
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/strings.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h:
 
@@ -2484,17 +4136,11 @@ generated/pico_base/pico/config_autogen.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_time.h:
-
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/math.h:
-
 /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/timers.h:
 
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h:
 
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdio.h:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c:
 
@@ -2512,19 +4158,21 @@ generated/pico_base/pico/config_autogen.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/include/hardware/exception.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
-
 /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c:
 
-/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/projdefs.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp:
 
-/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h:
-
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/inttypes.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c:
 
 /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/deprecated_definitions.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/assert.h:
 
@@ -2532,27 +4180,35 @@ generated/pico_base/pico/config_autogen.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/include/pico/time.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h:
-
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/assert.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/sync.h:
 
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h:
+
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/ssi.h:
 
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c:
-
 /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/stream_buffer.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/stdlib.h:
 
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/reent.h:
 
@@ -2568,10 +4224,6 @@ generated/pico_base/pico/config_autogen.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c:
-
 /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/croutine.h:
@@ -2582,37 +4234,61 @@ generated/pico_base/pico/config_autogen.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
 
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/dcd.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h:
+
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.c:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/lock.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c:
+generated/pico_base/pico/config_autogen.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/inttypes.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/projdefs.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/types.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/scheduler/FreeRTOSConfig.h:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/syslimits.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid.h:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/float.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c:
 
 /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h:
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/unistd.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/tbman.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/error.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h:
 
 generated/pico_base/pico/version.h:
 
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/portmacro.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c:
+
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
 
@@ -2622,29 +4298,23 @@ generated/pico_base/pico/version.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/portmacro.h:
-
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/select.h:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
-
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/features.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/message_buffer.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/list.h:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
-
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/_default_types.h:
-
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h:
+
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/select.h:
 
 /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/task.h:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/cstdlib:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico.h:
-
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
 
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/alloca.h:
 
@@ -2656,14 +4326,10 @@ generated/pico_base/pico/version.h:
 
 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/limits.h:
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/time.h:
 
-/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c:
+/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c:
 
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_base/include/pico/config.h:
-
-/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/boot_stage2/include/boot_stage2/config.h:
+/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c:
