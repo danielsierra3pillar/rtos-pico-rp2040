@@ -1,4 +1,4 @@
-/Users/daniel.sierra/Desktop/freertos-pico/scheduler/build/CMakeFiles/blink.dir
+/Users/daniel.sierra/Desktop/freertos-pico/scheduler/build/CMakeFiles/scheduler.dir
 /Users/daniel.sierra/Desktop/freertos-pico/scheduler/build/CMakeFiles/ELF2UF2Build.dir
 /Users/daniel.sierra/Desktop/freertos-pico/scheduler/build/CMakeFiles/edit_cache.dir
 /Users/daniel.sierra/Desktop/freertos-pico/scheduler/build/CMakeFiles/rebuild_cache.dir

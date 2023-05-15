@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named blink
+# Target rules for targets named scheduler
 
 # Build rule for target.
-blink: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 blink
-.PHONY : blink
+scheduler: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scheduler
+.PHONY : scheduler
 
 # fast build rule for target.
-blink/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/build
-.PHONY : blink/fast
+scheduler/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/build
+.PHONY : scheduler/fast
 
 #=============================================================================
 # Target rules for targets named ELF2UF2Build
@@ -238,7 +238,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.obj: Users/da
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.i
@@ -246,7 +246,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.i: Users/dani
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.s
@@ -254,7 +254,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.s: Users/dani
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
@@ -262,7 +262,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.obj: User
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.i
@@ -270,7 +270,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.i: Users/
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.s
@@ -278,7 +278,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.s: Users/
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
@@ -286,7 +286,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.obj: Users/daniel
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.i
@@ -294,7 +294,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.i: Users/daniel.s
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.s
@@ -302,7 +302,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.s: Users/daniel.s
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
@@ -310,7 +310,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
@@ -318,7 +318,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
@@ -326,7 +326,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
@@ -334,7 +334,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GC
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
@@ -342,7 +342,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GC
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
@@ -350,7 +350,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GC
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
@@ -358,7 +358,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.obj: Users/danie
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.i
@@ -366,7 +366,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.i: Users/daniel.
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.s
@@ -374,7 +374,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.s: Users/daniel.
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj
@@ -382,7 +382,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.obj: Use
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.i
@@ -390,7 +390,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.i: Users
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.s
@@ -398,7 +398,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.s: Users
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
@@ -406,7 +406,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.obj: Users/danie
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.i
@@ -414,7 +414,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.i: Users/daniel.
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.s
@@ -422,7 +422,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.s: Users/daniel.
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
@@ -430,7 +430,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.obj: Users/dani
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.i
@@ -438,7 +438,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.i: Users/daniel
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.s
@@ -446,7 +446,7 @@ Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.s: Users/daniel
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
@@ -454,7 +454,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/a
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
@@ -462,7 +462,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/a
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -470,7 +470,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/a
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
@@ -478,7 +478,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
@@ -486,7 +486,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -494,7 +494,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
@@ -502,7 +502,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
@@ -510,7 +510,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -518,7 +518,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
@@ -526,7 +526,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
@@ -534,7 +534,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -542,7 +542,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
@@ -550,7 +550,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
@@ -558,7 +558,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -566,7 +566,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
@@ -574,7 +574,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/mi
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
@@ -582,7 +582,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/mi
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -590,7 +590,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/mi
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
@@ -598,7 +598,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
@@ -606,7 +606,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -614,7 +614,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
@@ -622,7 +622,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
@@ -630,7 +630,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
@@ -638,7 +638,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
@@ -646,7 +646,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
@@ -654,7 +654,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
@@ -662,7 +662,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
@@ -670,7 +670,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
@@ -678,7 +678,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -686,7 +686,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
@@ -694,7 +694,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
@@ -702,7 +702,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -710,7 +710,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
@@ -718,7 +718,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/v
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
@@ -726,7 +726,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/v
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
@@ -734,7 +734,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/v
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
@@ -742,7 +742,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_f
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
@@ -750,7 +750,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_f
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -758,7 +758,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_f
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
@@ -766,7 +766,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.o
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
@@ -774,7 +774,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.i
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
@@ -782,7 +782,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.s
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
@@ -790,7 +790,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_c
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
@@ -798,7 +798,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_c
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
@@ -806,7 +806,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_c
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj
@@ -814,7 +814,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/rasp
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.i
@@ -822,7 +822,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/rasp
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.s
@@ -830,7 +830,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/rasp
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
@@ -838,7 +838,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/rasp
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
@@ -846,7 +846,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/rasp
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -854,7 +854,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/rasp
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
@@ -862,7 +862,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/rasp
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
@@ -870,7 +870,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/rasp
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -878,7 +878,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/rasp
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
@@ -886,7 +886,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.obj: Use
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.i
@@ -894,7 +894,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.i: Users
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.s
@@ -902,7 +902,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.s: Users
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -910,7 +910,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -918,7 +918,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -926,7 +926,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -934,7 +934,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_cor
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -942,7 +942,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_cor
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -950,7 +950,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_cor
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -958,7 +958,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.ob
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -966,7 +966,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.i:
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -974,7 +974,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.s:
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -982,7 +982,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.obj:
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -990,7 +990,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.i: U
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -998,7 +998,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.s: U
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -1006,7 +1006,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.obj
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.i
@@ -1014,7 +1014,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.i: 
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.s
@@ -1022,7 +1022,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.s: 
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -1030,7 +1030,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -1038,7 +1038,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -1046,7 +1046,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -1054,7 +1054,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -1062,7 +1062,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -1070,7 +1070,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -1078,7 +1078,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.ob
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -1086,7 +1086,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.i:
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -1094,7 +1094,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.s:
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c.obj
@@ -1102,7 +1102,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.ob
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -1110,7 +1110,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.i:
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -1118,7 +1118,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.s:
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/queue.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -1126,7 +1126,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -1134,7 +1134,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -1142,7 +1142,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -1150,7 +1150,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clock
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -1158,7 +1158,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clock
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -1166,7 +1166,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clock
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -1174,7 +1174,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_divid
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
@@ -1182,7 +1182,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_excep
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
@@ -1190,7 +1190,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_excep
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
@@ -1198,7 +1198,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_excep
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
@@ -1206,7 +1206,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
@@ -1214,7 +1214,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
@@ -1222,7 +1222,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -1230,7 +1230,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -1238,7 +1238,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -1246,7 +1246,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -1254,7 +1254,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/i
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -1262,7 +1262,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/i
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -1270,7 +1270,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/i
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -1278,7 +1278,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/i
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -1286,7 +1286,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/p
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -1294,7 +1294,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/p
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -1302,7 +1302,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/p
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -1310,7 +1310,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -1318,7 +1318,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -1326,7 +1326,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -1334,7 +1334,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -1342,7 +1342,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -1350,7 +1350,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -1358,7 +1358,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -1366,7 +1366,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -1374,7 +1374,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -1382,7 +1382,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -1390,7 +1390,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -1398,7 +1398,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -1406,7 +1406,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watch
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -1414,7 +1414,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watch
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -1422,7 +1422,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watch
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -1430,7 +1430,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1438,7 +1438,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1446,7 +1446,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -1454,7 +1454,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/b
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -1462,7 +1462,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/b
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1470,7 +1470,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/b
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1478,7 +1478,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/b
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -1486,7 +1486,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_divider/d
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -1494,7 +1494,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/do
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -1502,7 +1502,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/do
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -1510,7 +1510,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/do
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -1518,7 +1518,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/do
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -1526,7 +1526,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/do
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -1534,7 +1534,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/do
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1542,7 +1542,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/do
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -1550,7 +1550,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/do
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
@@ -1558,7 +1558,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp204
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
@@ -1566,7 +1566,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp204
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
@@ -1574,7 +1574,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp204
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -1582,7 +1582,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/flo
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -1590,7 +1590,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/flo
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -1598,7 +1598,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/flo
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -1606,7 +1606,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/flo
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -1614,7 +1614,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/flo
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1622,7 +1622,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/flo
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1630,7 +1630,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/flo
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -1638,7 +1638,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/flo
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -1646,7 +1646,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -1654,7 +1654,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pi
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -1662,7 +1662,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pi
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -1670,7 +1670,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pi
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -1678,7 +1678,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/m
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
@@ -1686,7 +1686,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
@@ -1694,7 +1694,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
@@ -1702,7 +1702,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1710,7 +1710,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -1718,7 +1718,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -1726,7 +1726,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -1734,7 +1734,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/pr
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1742,7 +1742,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/pr
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1750,7 +1750,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/pr
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -1758,7 +1758,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/r
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1766,7 +1766,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/r
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1774,7 +1774,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/r
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -1782,7 +1782,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -1790,7 +1790,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -1798,7 +1798,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1806,7 +1806,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -1814,7 +1814,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -1822,7 +1822,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -1830,7 +1830,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1838,7 +1838,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/std
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1846,7 +1846,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/std
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1854,7 +1854,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/std
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
@@ -1862,7 +1862,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
@@ -1870,7 +1870,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
@@ -1878,7 +1878,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
@@ -1886,7 +1886,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
@@ -1894,7 +1894,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
@@ -1902,7 +1902,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
@@ -1910,7 +1910,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
@@ -1918,7 +1918,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
@@ -1926,7 +1926,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1934,7 +1934,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/st
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1942,7 +1942,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/st
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1950,7 +1950,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/st
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
@@ -1958,7 +1958,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id
 
 # target to build an object file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
@@ -1966,7 +1966,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id
 
 # target to preprocess a source file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
@@ -1974,7 +1974,7 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id
 
 # target to generate assembly for a file
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 main.obj: main.c.obj
@@ -1982,7 +1982,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -1990,7 +1990,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -1998,7 +1998,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scheduler.dir/build.make CMakeFiles/scheduler.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -2016,8 +2016,8 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... tinyusb_pico_pio_usb_usb_rx_pio_h"
 	@echo "... tinyusb_pico_pio_usb_usb_tx_pio_h"
-	@echo "... blink"
 	@echo "... bs2_default"
+	@echo "... scheduler"
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.obj"
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.i"
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.s"

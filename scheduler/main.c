@@ -1,153 +1,73 @@
-#include "pico/stdlib.h"
+#include "pico/stdlib.h" // Standard library for Pico boards
+#include "FreeRTOS.h"    // FreeRTOS library for multitasking
+#include "task.h"        // Task management functions for FreeRTOS
+#include "queue.h"       // Queue management functions for FreeRTOS
 
-#include "FreeRTOS.h"
-
-#include "task.h"
-
-#include "queue.h"
-
- 
-
+// Create a global variable to hold the queue handle
 QueueHandle_t blinkQueue;
 
- 
+// Define a task to receive blinking instructions from the queue and blink the LED accordingly
+void vBlinkReceiverTask()
+{
 
-void vBlinkReceiverTask() {
+    for (;;)
+    { // Loop forever
 
-    for (;;) {
+        int blinks = 0; // Create a variable to hold the number of blinks
 
-    int blinks = 0;
+        // Check if there is a message in the queue and receive it if so
+        if (xQueueReceive(blinkQueue, &blinks, 0) == pdPASS)
+        {
 
-        if (xQueueReceive(blinkQueue, &blinks, 0) == pdPASS) {
+            // Loop through the specified number of blinks and turn the LED on and off
+            for (int i = 0; i < blinks; i++)
+            {
 
-            for (int i = 0; i < blinks; i++) {
+                gpio_put(PICO_DEFAULT_LED_PIN, 1); // Turn the LED on
 
-                gpio_put(PICO_DEFAULT_LED_PIN, 1);
+                vTaskDelay(200); // Delay for 200ms
 
-                vTaskDelay(200);
+                gpio_put(PICO_DEFAULT_LED_PIN, 0); // Turn the LED off
 
-                gpio_put(PICO_DEFAULT_LED_PIN, 0);
-
-                vTaskDelay(200);
-
+                vTaskDelay(200); // Delay for another 200ms
             }
-
         }
-
     }
-
 }
 
- 
+// Define a task to send blinking instructions to the queue
+void vBlinkSenderTask()
+{
 
-void vBlinkSenderTask() {
+    int loops = 4; // Define the number of loops to execute
 
-    int loops = 4;
+    for (;;)
+    { // Loop forever
 
-    for (;;) {
+        // Loop through the specified number of loops and send messages to the queue
+        for (int i = 1; i <= loops; i++)
+        {
 
-        for (int i = 1; i <= loops; i++) {
+            xQueueSend(blinkQueue, &i, 0); // Send the message to the queue
 
-            xQueueSend(blinkQueue, &i, 0);
-
-            vTaskDelay(500 + (i * 500));
-
+            vTaskDelay(500 + (i * 500)); // Delay for a variable amount of time
         }
-
     }
-
 }
 
- 
+// Main function
+void main()
+{
 
-void main() {
+    gpio_init(PICO_DEFAULT_LED_PIN); // Initialize the GPIO pin connected to the LED
 
-    gpio_init(PICO_DEFAULT_LED_PIN);
+    gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT); // Set the direction of the pin to output
 
-    gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
+    blinkQueue = xQueueCreate(1, sizeof(int)); // Create a queue with a length of 1 and a size of 4 bytes
 
-    blinkQueue = xQueueCreate(1, sizeof(int));
-
+    // Create two tasks: one to send messages to the queue and another to receive messages from the queue
     xTaskCreate(vBlinkSenderTask, "Blink Sender", 128, NULL, 1, NULL);
-
     xTaskCreate(vBlinkReceiverTask, "Blink Receiver", 128, NULL, 1, NULL);
 
-    vTaskStartScheduler();
-
+    vTaskStartScheduler(); // Start the FreeRTOS scheduler
 }
-
-// #include <string.h>
-
-// #include <stdio.h>
-
-// #include <stdlib.h>
-
-// #include "pico/stdlib.h"
-
-// #include "FreeRTOS.h"
-
-// #include "task.h"
-
-// #include "message_buffer.h"
-
-// const size_t BUFFER_SIZE = 32;
-
-// void vReceiverTask(void *pvParameters)
-// {
-
-//     MessageBufferHandle_t buffer = (MessageBufferHandle_t)pvParameters;
-
-//     size_t messageSize = BUFFER_SIZE - 4;
-
-//     char *message = malloc(messageSize);
-
-//     memset(message, '\0', messageSize);
-
-//     size_t lengthReceived;
-
-//     for (;;)
-//     {
-
-//         lengthReceived = xMessageBufferReceive(buffer, (void *)message, BUFFER_SIZE, 0);
-
-//         if (lengthReceived > 0)
-//         {
-
-//             printf("length: %d, message: %s\n", lengthReceived, message);
-
-//             memset(message, '\0', messageSize);
-//         }
-//     }
-// }
-
-// void vSenderTask(void *pvParameters)
-// {
-
-//     MessageBufferHandle_t buffer = (MessageBufferHandle_t)pvParameters;
-
-//     char message[] = "FreeRTOS + Pi Pico";
-
-//     for (;;)
-//     {
-
-//         xMessageBufferSend(buffer, (void *)message, strlen(message), 0);
-
-//         vTaskDelay(1000);
-//     }
-// }
-
-// void main()
-// {
-
-//     stdio_init_all();
-
-//     busy_wait_ms(1000);
-
-//     MessageBufferHandle_t buffer = xMessageBufferCreate(BUFFER_SIZE);
-
-//     xTaskCreate(vSenderTask, "Sender", 128, (void *)buffer, 1, NULL);
-
-//     xTaskCreate(vReceiverTask, "Receiver", 128, (void *)buffer, 1, NULL);
-
-//     vTaskStartScheduler();
-// }
