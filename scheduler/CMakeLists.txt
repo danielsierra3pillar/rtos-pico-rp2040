@@ -13,18 +13,18 @@ set(CMAKE_CXX_STANDARD 17)
 # Initialize the SDK
 pico_sdk_init()
 
-add_executable(blink main.c)
+add_executable(scheduler main.c)
 
-target_include_directories(blink PRIVATE ${CMAKE_CURRENT_LIST_DIR})
+target_include_directories(scheduler PRIVATE ${CMAKE_CURRENT_LIST_DIR})
  
 # pull in common dependencies
-target_link_libraries(blink pico_stdlib FreeRTOS-Kernel FreeRTOS-Kernel-Heap4)
+target_link_libraries(scheduler pico_stdlib FreeRTOS-Kernel FreeRTOS-Kernel-Heap4)
 
 # create map/bin/hex/uf2 file etc.
-pico_add_extra_outputs(blink)
+pico_add_extra_outputs(scheduler)
 
 # enable usb output, disable uart output
 
-pico_enable_stdio_usb(blink 1)
+pico_enable_stdio_usb(scheduler 1)
 
-pico_enable_stdio_uart(blink 0)
+pico_enable_stdio_uart(scheduler 0)

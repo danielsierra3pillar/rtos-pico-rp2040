@@ -15,7 +15,23 @@ El proyecto se compone de varios pequenos proyectos que ejemplifican cada uno de
 en la fase 1 de PINTOS, esta fase se compuso de manejar las interrupciones, manejar tareas, manejar prioridades, manejo
 de colas, "paralelismo", implementaciond de algoritmos como round-robin
 
+Instrucciones instalacion y configuracion para WINDOWS OS
 
+- Instalar Git (includes Bash terminal): https://git-scm.com/downloads
+- Instalar CMake: https://cmake.org/download/
+- Instalar Arm GNU Toolchain: https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain
+- Instalar Make usando Chocolatey
+- Chocolatey deberia de estar ya instalado porque el paquete se baja cuando se onstala git, de lo contrario: https://chocolatey.org/
+- Desde Git Bash: $ choco install make
+
+En el directorio principal (freertos-pico) ejecutar antes de compilar cualquier codigo
+
+- export PICO_SDK_PATH=$PWD/pico-sdk
+- export FREERTOS_KERNEL_PATH=$PWD/FreeRTOS-Kernel
+
+Cada proyecto tiene su carpeta build, eliminar todo si hay archivos luego ejecutar
+- cmake -G "MinGW Makefiles" ..
+- make
 
 Instrucciones instalacion y configuracion para MAC OS
 
