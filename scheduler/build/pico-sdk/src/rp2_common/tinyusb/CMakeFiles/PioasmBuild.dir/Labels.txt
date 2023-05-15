@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/Users/daniel.sierra/Desktop/freertos-pico/scheduler/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild
+/Users/daniel.sierra/Desktop/freertos-pico/scheduler/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.rule
+/Users/daniel.sierra/Desktop/freertos-pico/scheduler/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild-complete.rule
+/Users/daniel.sierra/Desktop/freertos-pico/scheduler/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+/Users/daniel.sierra/Desktop/freertos-pico/scheduler/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/Users/daniel.sierra/Desktop/freertos-pico/scheduler/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/Users/daniel.sierra/Desktop/freertos-pico/scheduler/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/Users/daniel.sierra/Desktop/freertos-pico/scheduler/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/Users/daniel.sierra/Desktop/freertos-pico/scheduler/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/Users/daniel.sierra/Desktop/freertos-pico/scheduler/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule
