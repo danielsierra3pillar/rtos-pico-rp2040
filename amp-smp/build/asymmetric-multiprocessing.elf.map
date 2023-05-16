@@ -55,8 +55,10 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 CMakeFiles/asymmetric-multiprocessing.dir/main.c.obj
  .text.vSafePrint
                 0x0000000000000000       0x28 CMakeFiles/asymmetric-multiprocessing.dir/main.c.obj
- .text.vPrintTime
-                0x0000000000000000       0x3c CMakeFiles/asymmetric-multiprocessing.dir/main.c.obj
+ .rodata.taskDelay
+                0x0000000000000000        0x4 CMakeFiles/asymmetric-multiprocessing.dir/main.c.obj
+ .rodata.taskSize
+                0x0000000000000000        0x4 CMakeFiles/asymmetric-multiprocessing.dir/main.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -243,6 +245,8 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
+ .text.repeating_timer_callback
+                0x0000000000000000       0x1c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.alarm_pool_dump_key.str1.4
                 0x0000000000000000        0xf CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_dump_key
@@ -257,6 +261,8 @@ Discarded input sections
                 0x0000000000000000      0x11c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_hardware_alarm_num
                 0x0000000000000000        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
+ .text.alarm_pool_add_repeating_timer_us
+                0x0000000000000000      0x200 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.cancel_repeating_timer
                 0x0000000000000000       0x8c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_dump
@@ -1273,8 +1279,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
- .text.vTaskSuspendAll.part.0
-                0x0000000000000000       0xfc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.eTaskGetState
                 0x0000000000000000      0x1ac CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.uxTaskPriorityGet
@@ -1283,10 +1287,6 @@ Discarded input sections
                 0x0000000000000000      0x184 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.vTaskPrioritySet
                 0x0000000000000000      0x290 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
- .text.vTaskCoreAffinitySet
-                0x0000000000000000      0x1f4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
- .text.vTaskCoreAffinityGet
-                0x0000000000000000      0x158 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.vTaskResume
                 0x0000000000000000      0x194 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.xTaskResumeFromISR
@@ -1297,8 +1297,6 @@ Discarded input sections
                 0x0000000000000000        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.uxTaskGetNumberOfTasks
                 0x0000000000000000        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
- .text.pcTaskGetName
-                0x0000000000000000       0x24 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.xTaskGetIdleTaskHandle
                 0x0000000000000000        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.vTaskSetTimeOutState
@@ -1321,8 +1319,6 @@ Discarded input sections
                 0x0000000000000000      0x114 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.xTaskDelayUntil
                 0x0000000000000000       0x8c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
- .text.vTaskDelay
-                0x0000000000000000       0x70 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.xTaskGetHandle
                 0x0000000000000000      0x764 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.xTaskCatchUpTicks
@@ -1337,8 +1333,12 @@ Discarded input sections
                 0x0000000000000000      0x160 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.ulTaskGenericNotifyTake
                 0x0000000000000000      0x150 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+ .text.xTaskGenericNotifyWait
+                0x0000000000000000      0x180 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.xTaskGenericNotify
                 0x0000000000000000      0x220 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+ .text.xTaskGenericNotifyFromISR
+                0x0000000000000000      0x264 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.vTaskGenericNotifyGiveFromISR
                 0x0000000000000000      0x208 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.xTaskGenericNotifyStateClear
@@ -1429,9 +1429,9 @@ Discarded input sections
                 0x0000000000000000        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
  .text.vPortGetHeapStats
                 0x0000000000000000       0x80 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
- .text          0x0000000000000000        0x0 /var/folders/m8/0vkhrb2d79q5vj59ddsmwqxmj03f_3/T//ccYevKfH.o
- .data          0x0000000000000000        0x0 /var/folders/m8/0vkhrb2d79q5vj59ddsmwqxmj03f_3/T//ccYevKfH.o
- .bss           0x0000000000000000        0x0 /var/folders/m8/0vkhrb2d79q5vj59ddsmwqxmj03f_3/T//ccYevKfH.o
+ .text          0x0000000000000000        0x0 /var/folders/m8/0vkhrb2d79q5vj59ddsmwqxmj03f_3/T//ccKABLKN.o
+ .data          0x0000000000000000        0x0 /var/folders/m8/0vkhrb2d79q5vj59ddsmwqxmj03f_3/T//ccKABLKN.o
+ .bss           0x0000000000000000        0x0 /var/folders/m8/0vkhrb2d79q5vj59ddsmwqxmj03f_3/T//ccKABLKN.o
  .data          0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-calloc.o)
@@ -1647,11 +1647,11 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-non
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /var/folders/m8/0vkhrb2d79q5vj59ddsmwqxmj03f_3/T//ccYevKfH.o
+ .boot2         0x0000000010000000      0x100 /var/folders/m8/0vkhrb2d79q5vj59ddsmwqxmj03f_3/T//ccKABLKN.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0xa2e8
+.text           0x0000000010000100     0xa1c0
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1712,816 +1712,816 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-non
                 0x00000000100002b8                _init
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x00000000100002bc       0x48 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
- .text.vTimerCallback
-                0x0000000010000304       0x24 CMakeFiles/asymmetric-multiprocessing.dir/main.c.obj
-                0x0000000010000304                vTimerCallback
- .text.vNotifyTask
-                0x0000000010000328       0x74 CMakeFiles/asymmetric-multiprocessing.dir/main.c.obj
-                0x0000000010000328                vNotifyTask
+ .text.vTaskSMP
+                0x0000000010000304       0x70 CMakeFiles/asymmetric-multiprocessing.dir/main.c.obj
+                0x0000000010000304                vTaskSMP
  .text.startup.main
-                0x000000001000039c       0x68 CMakeFiles/asymmetric-multiprocessing.dir/main.c.obj
-                0x000000001000039c                main
+                0x0000000010000374       0x8c CMakeFiles/asymmetric-multiprocessing.dir/main.c.obj
+                0x0000000010000374                main
  .text.running_on_fpga
-                0x0000000010000404       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x0000000010000404                running_on_fpga
+                0x0000000010000400       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x0000000010000400                running_on_fpga
  .text.hw_claim_or_assert
-                0x0000000010000414       0x44 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000414                hw_claim_or_assert
+                0x0000000010000410       0x44 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000410                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x0000000010000458       0x9c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000458                hw_claim_unused_from_range
+                0x0000000010000454       0x9c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000454                hw_claim_unused_from_range
  .text.spin_locks_reset
-                0x00000000100004f4       0x1c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100004f4                spin_locks_reset
+                0x00000000100004f0       0x1c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000100004f0                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x0000000010000510       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000510                next_striped_spin_lock_num
+                0x000000001000050c       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x000000001000050c                next_striped_spin_lock_num
  .text.spin_lock_claim
-                0x0000000010000528       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000528                spin_lock_claim
+                0x0000000010000524       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000524                spin_lock_claim
  .text.spin_lock_claim_unused
-                0x0000000010000540       0x20 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000540                spin_lock_claim_unused
+                0x000000001000053c       0x20 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x000000001000053c                spin_lock_claim_unused
  .text.irq_set_enabled
-                0x0000000010000560       0x24 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000560                irq_set_enabled
+                0x000000001000055c       0x24 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000055c                irq_set_enabled
  .text.irq_is_enabled
-                0x0000000010000584       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000584                irq_is_enabled
+                0x0000000010000580       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000580                irq_is_enabled
  .text.irq_set_pending
-                0x000000001000059c       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x000000001000059c                irq_set_pending
+                0x0000000010000598       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000598                irq_set_pending
  .text.irq_has_shared_handler
-                0x00000000100005ac       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100005ac                irq_has_shared_handler
+                0x00000000100005a8       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100005a8                irq_has_shared_handler
  .text.irq_get_vtable_handler
-                0x00000000100005d8       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100005d8                irq_get_vtable_handler
+                0x00000000100005d4       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100005d4                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x00000000100005e8       0x54 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100005e8                irq_set_exclusive_handler
+                0x00000000100005e4       0x54 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100005e4                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x000000001000063c      0x1e8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x000000001000063c                irq_add_shared_handler
+                0x0000000010000638      0x1e8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000638                irq_add_shared_handler
  .text.irq_remove_handler
-                0x0000000010000824      0x1b0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000824                irq_remove_handler
+                0x0000000010000820      0x1b0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000820                irq_remove_handler
  .text.irq_set_priority
-                0x00000000100009d4       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100009d4                irq_set_priority
+                0x00000000100009d0       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100009d0                irq_set_priority
  .text.irq_add_tail_to_free_list
-                0x00000000100009fc       0xb4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100009fc                irq_add_tail_to_free_list
+                0x00000000100009f8       0xb4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100009f8                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x0000000010000ab0       0x24 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000ab0                irq_init_priorities
+                0x0000000010000aac       0x24 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000aac                irq_init_priorities
  .text.user_irq_claim_unused
-                0x0000000010000ad4       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000ad4                user_irq_claim_unused
+                0x0000000010000ad0       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000ad0                user_irq_claim_unused
  .text.lock_init
-                0x0000000010000afc       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x0000000010000afc                lock_init
+                0x0000000010000af8       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x0000000010000af8                lock_init
  .text.mutex_init
-                0x0000000010000b0c       0x1c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010000b0c                mutex_init
+                0x0000000010000b08       0x1c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010000b08                mutex_init
  .text.recursive_mutex_init
-                0x0000000010000b28       0x20 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010000b28                recursive_mutex_init
+                0x0000000010000b24       0x20 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010000b24                recursive_mutex_init
  .text.critical_section_init
-                0x0000000010000b48       0x20 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x0000000010000b48                critical_section_init
+                0x0000000010000b44       0x20 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x0000000010000b44                critical_section_init
  .text.critical_section_init_with_lock_num
-                0x0000000010000b68       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x0000000010000b68                critical_section_init_with_lock_num
+                0x0000000010000b64       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x0000000010000b64                critical_section_init_with_lock_num
  .text.timer_pool_entry_comparator
-                0x0000000010000b7c       0x34 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000b7c                timer_pool_entry_comparator
- .text.repeating_timer_callback
-                0x0000000010000bb0       0x1c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000b78       0x34 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000b78                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x0000000010000bcc       0x24 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000bac       0x24 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x0000000010000bf0      0x100 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000bd0      0x100 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x0000000010000cf0      0x1b8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000cd0      0x1b8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x0000000010000ea8       0x6c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000ea8                alarm_pool_init_default
+                0x0000000010000e88       0x6c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000e88                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x0000000010000f14        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000f14                alarm_pool_get_default
+                0x0000000010000ef4        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000ef4                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x0000000010000f1c      0x17c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000f1c                alarm_pool_add_alarm_at
+                0x0000000010000efc      0x17c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000efc                alarm_pool_add_alarm_at
  .text.alarm_pool_cancel_alarm
-                0x0000000010001098       0x74 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001098                alarm_pool_cancel_alarm
+                0x0000000010001078       0x74 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001078                alarm_pool_cancel_alarm
  .text.alarm_pool_core_num
-                0x000000001000110c        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x000000001000110c                alarm_pool_core_num
- .text.alarm_pool_add_repeating_timer_us
-                0x0000000010001110      0x200 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001110                alarm_pool_add_repeating_timer_us
+                0x00000000100010ec        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100010ec                alarm_pool_core_num
  .text.best_effort_wfe_or_timeout
-                0x0000000010001310       0x78 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001310                best_effort_wfe_or_timeout
+                0x00000000100010f0       0x78 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100010f0                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x0000000010001388       0xbc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001168       0xbc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x0000000010001444       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001444                hardware_alarm_claim
+                0x0000000010001224       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001224                hardware_alarm_claim
  .text.time_us_64
-                0x000000001000145c       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x000000001000145c                time_us_64
+                0x000000001000123c       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000001000123c                time_us_64
  .text.hardware_alarm_set_callback
-                0x0000000010001470       0x8c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001470                hardware_alarm_set_callback
+                0x0000000010001250       0x8c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001250                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x00000000100014fc       0xe0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x00000000100014fc                hardware_alarm_set_target
+                0x00000000100012dc       0xe0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100012dc                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x00000000100015dc       0x3c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x00000000100015dc                hardware_alarm_cancel
+                0x00000000100013bc       0x3c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100013bc                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x0000000010001618       0x68 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100013f8       0x68 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x0000000010001680       0x3c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001680                ph_post_alloc_init
+                0x0000000010001460       0x3c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001460                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x00000000100016bc       0x90 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100016bc                ph_merge_two_pass
+                0x000000001000149c       0x90 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000000001000149c                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x000000001000174c      0x100 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000000001000152c      0x100 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x000000001000184c      0x104 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x000000001000184c                ph_remove_head
+                0x000000001000162c      0x104 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000000001000162c                ph_remove_head
  .text.ph_remove_and_free_node
-                0x0000000010001950       0x7c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001950                ph_remove_and_free_node
+                0x0000000010001730       0x7c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001730                ph_remove_and_free_node
  .text.clocks_init
-                0x00000000100019cc      0x2bc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x00000000100019cc                clocks_init
+                0x00000000100017ac      0x2bc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000100017ac                clocks_init
  .text.clock_get_hz
-                0x0000000010001c88        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010001c88                clock_get_hz
+                0x0000000010001a68        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010001a68                clock_get_hz
  .text.pll_init
-                0x0000000010001c94       0xb0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x0000000010001c94                pll_init
+                0x0000000010001a74       0xb0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000000010001a74                pll_init
  .text.watchdog_start_tick
-                0x0000000010001d44       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x0000000010001d44                watchdog_start_tick
+                0x0000000010001b24       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010001b24                watchdog_start_tick
  .text.watchdog_reboot
-                0x0000000010001d54       0x98 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x0000000010001d54                watchdog_reboot
+                0x0000000010001b34       0x98 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010001b34                watchdog_reboot
  .text.xosc_init
-                0x0000000010001dec       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x0000000010001dec                xosc_init
+                0x0000000010001bcc       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000000010001bcc                xosc_init
  .text.runtime_init
-                0x0000000010001e14       0xf0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001e14                runtime_init
- .text._exit    0x0000000010001f04        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001f04                _exit
- .text.exit     0x0000000010001f08        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001f08                exit
- .text.panic    0x0000000010001f10       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001f10                panic
+                0x0000000010001bf4       0xf0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001bf4                runtime_init
+ .text._exit    0x0000000010001ce4        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001ce4                _exit
+ .text.exit     0x0000000010001ce8        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001ce8                exit
+ .text.panic    0x0000000010001cf0       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001cf0                panic
  .text.panic_unsupported
-                0x0000000010001f40        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001f40                panic_unsupported
+                0x0000000010001d20        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001d20                panic_unsupported
  .text.hard_assertion_failure
-                0x0000000010001f4c        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001f4c                hard_assertion_failure
+                0x0000000010001d2c        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001d2c                hard_assertion_failure
  .text._out_buffer
-                0x0000000010001f58        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001d38        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_null
-                0x0000000010001f60        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001d40        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x0000000010001f64       0x9c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001d44       0x9c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x0000000010002000      0x1cc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001de0      0x1cc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x00000000100021cc       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x00000000100021dc      0x44c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x0000000010002628      0x398 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001fac       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x0000000010001fbc      0x44c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x0000000010002408      0x398 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x00000000100029c0      0xb04 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100027a0      0xb04 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_sprintf
-                0x00000000100034c4       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x00000000100034c4                __wrap_sprintf
+                0x00000000100032a4       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100032a4                __wrap_sprintf
  .text.weak_raw_vprintf
-                0x00000000100034ec       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x00000000100034ec                weak_raw_vprintf
- .text          0x000000001000351c       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .text.clzsi    0x000000001000352c        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-                0x000000001000352c                __wrap___clz
-                0x000000001000352c                __wrap___clzsi2
-                0x000000001000352c                __wrap___clzl
+                0x00000000100032cc       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100032cc                weak_raw_vprintf
+ .text          0x00000000100032fc       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .text.clzsi    0x000000001000330c        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x000000001000330c                __wrap___clz
+                0x000000001000330c                __wrap___clzsi2
+                0x000000001000330c                __wrap___clzl
  .text.rom_func_lookup
-                0x0000000010003538       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010003538                rom_func_lookup
+                0x0000000010003318       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003318                rom_func_lookup
  .text.rom_data_lookup
-                0x0000000010003548       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010003548                rom_data_lookup
+                0x0000000010003328       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003328                rom_data_lookup
  .text.rom_funcs_lookup
-                0x0000000010003558       0x44 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010003558                rom_funcs_lookup
+                0x0000000010003338       0x44 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003338                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x000000001000359c       0x50 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x000000001000359c                __wrap___aeabi_idivmod
-                0x000000001000359c                divmod_s32s32
-                0x000000001000359c                div_s32s32
-                0x000000001000359c                __wrap___aeabi_idiv
-                0x00000000100035a4                divmod_s32s32_unsafe
-                0x00000000100035d0                divmod_s32s32_savestate
+                0x000000001000337c       0x50 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x000000001000337c                __wrap___aeabi_idivmod
+                0x000000001000337c                divmod_s32s32
+                0x000000001000337c                div_s32s32
+                0x000000001000337c                __wrap___aeabi_idiv
+                0x0000000010003384                divmod_s32s32_unsafe
+                0x00000000100033b0                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x00000000100035ec       0x4c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x00000000100035ec                __wrap___aeabi_uidiv
-                0x00000000100035ec                __wrap___aeabi_uidivmod
-                0x00000000100035ec                div_u32u32
-                0x00000000100035ec                divmod_u32u32
-                0x00000000100035f4                divmod_u32u32_unsafe
-                0x000000001000361c                divmod_u32u32_savestate
+                0x00000000100033cc       0x4c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x00000000100033cc                __wrap___aeabi_uidiv
+                0x00000000100033cc                __wrap___aeabi_uidivmod
+                0x00000000100033cc                div_u32u32
+                0x00000000100033cc                divmod_u32u32
+                0x00000000100033d4                divmod_u32u32_unsafe
+                0x00000000100033fc                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x0000000010003638      0x424 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010003638                __wrap___aeabi_ldivmod
-                0x0000000010003638                div_s64s64
-                0x0000000010003638                divmod_s64s64
-                0x0000000010003668                divmod_u64u64
-                0x0000000010003668                div_u64u64
-                0x0000000010003668                __wrap___aeabi_uldivmod
-                0x0000000010003678                divmod_u64u64_savestate
-                0x0000000010003698                divmod_s64s64_unsafe
-                0x0000000010003720                divmod_u64u64_unsafe
+                0x0000000010003418      0x424 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003418                __wrap___aeabi_ldivmod
+                0x0000000010003418                div_s64s64
+                0x0000000010003418                divmod_s64s64
+                0x0000000010003448                divmod_u64u64
+                0x0000000010003448                div_u64u64
+                0x0000000010003448                __wrap___aeabi_uldivmod
+                0x0000000010003458                divmod_u64u64_savestate
+                0x0000000010003478                divmod_s64s64_unsafe
+                0x0000000010003500                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x0000000010003a5c       0x80 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003a5c                __wrap___aeabi_drsub
-                0x0000000010003a62                __wrap___aeabi_dsub
-                0x0000000010003a74                __wrap___aeabi_dadd
-                0x0000000010003a86                __wrap___aeabi_ddiv
-                0x0000000010003ac2                __wrap___aeabi_dmul
+                0x000000001000383c       0x80 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x000000001000383c                __wrap___aeabi_drsub
+                0x0000000010003842                __wrap___aeabi_dsub
+                0x0000000010003854                __wrap___aeabi_dadd
+                0x0000000010003866                __wrap___aeabi_ddiv
+                0x00000000100038a2                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x0000000010003adc       0x6c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003adc                __wrap___aeabi_cdrcmple
-                0x0000000010003aec                __wrap___aeabi_cdcmple
-                0x0000000010003aec                __wrap___aeabi_cdcmpeq
+                0x00000000100038bc       0x6c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100038bc                __wrap___aeabi_cdrcmple
+                0x00000000100038cc                __wrap___aeabi_cdcmple
+                0x00000000100038cc                __wrap___aeabi_cdcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x0000000010003b48        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003b48                __wrap___aeabi_dcmplt
+                0x0000000010003928        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003928                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x0000000010003b54       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003b54                __wrap___aeabi_dcmple
+                0x0000000010003934       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003934                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x0000000010003b64       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003b64                __wrap___aeabi_dcmpge
+                0x0000000010003944       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003944                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x0000000010003b74        0xa CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003b74                __wrap___aeabi_dcmpgt
+                0x0000000010003954        0xa CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003954                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x0000000010003b7e       0x1c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003b7e                __wrap___aeabi_dcmpun
- *fill*         0x0000000010003b9a        0x2 
+                0x000000001000395e       0x1c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x000000001000395e                __wrap___aeabi_dcmpun
+ *fill*         0x000000001000397a        0x2 
  .text.__wrap___aeabi_i2d
-                0x0000000010003b9c       0x38 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003b9c                __wrap___aeabi_ui2d
-                0x0000000010003ba4                __wrap___aeabi_i2d
+                0x000000001000397c       0x38 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x000000001000397c                __wrap___aeabi_ui2d
+                0x0000000010003984                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x0000000010003bd4       0x48 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003bd4                __wrap___aeabi_d2iz
-                0x0000000010003bd4                double2int_z
+                0x00000000100039b4       0x48 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100039b4                __wrap___aeabi_d2iz
+                0x00000000100039b4                double2int_z
  .text.__wrap___aeabi_d2uiz
-                0x0000000010003c1c       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003c1c                double2uint
-                0x0000000010003c1c                __wrap___aeabi_d2uiz
+                0x00000000100039fc       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x00000000100039fc                double2uint
+                0x00000000100039fc                __wrap___aeabi_d2uiz
  .text.__aeabi_double_init
-                0x0000000010003c34       0x94 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000010003c34                __aeabi_double_init
+                0x0000000010003a14       0x94 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010003a14                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x0000000010003cc8       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003cc8                double_table_shim_on_use_helper
+                0x0000000010003aa8       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003aa8                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x0000000010003cf4       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003cf4                drsub_shim
-                0x0000000010003cfa                dsub_shim
+                0x0000000010003ad4       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003ad4                drsub_shim
+                0x0000000010003ada                dsub_shim
  .text.dadd_shim
-                0x0000000010003d04      0x15c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003d04                dadd_shim
+                0x0000000010003ae4      0x15c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003ae4                dadd_shim
  .text.dmul_shim
-                0x0000000010003e60      0x15c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003e60                dmul_shim
+                0x0000000010003c40      0x15c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003c40                dmul_shim
  .text.ddiv_shim
-                0x0000000010003fbc      0x1b0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003fbc                ddiv_shim
+                0x0000000010003d9c      0x1b0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003d9c                ddiv_shim
  .text.double2uint_shim
-                0x000000001000416c        0xe CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x000000001000416c                double2uint_shim
-                0x000000001000416e                double2ufix_shim
- *fill*         0x000000001000417a        0x2 
+                0x0000000010003f4c        0xe CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003f4c                double2uint_shim
+                0x0000000010003f4e                double2ufix_shim
+ *fill*         0x0000000010003f5a        0x2 
  .text.double2uint64_shim
-                0x000000001000417c       0x70 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x000000001000417c                double2uint64_shim
-                0x000000001000417e                double2ufix64_shim
-                0x000000001000419e                d2fix_a
+                0x0000000010003f5c       0x70 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003f5c                double2uint64_shim
+                0x0000000010003f5e                double2ufix64_shim
+                0x0000000010003f7e                d2fix_a
  .text.dunpacks
-                0x00000000100041ec       0x3c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100041ec                dunpacks
+                0x0000000010003fcc       0x3c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003fcc                dunpacks
  .text.__aeabi_lmul
-                0x0000000010004228       0x32 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x0000000010004228                __wrap___aeabi_lmul
- *fill*         0x000000001000425a        0x2 
+                0x0000000010004008       0x32 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x0000000010004008                __wrap___aeabi_lmul
+ *fill*         0x000000001000403a        0x2 
  .text.__aeabi_float_init
-                0x000000001000425c       0x64 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x000000001000425c                __aeabi_float_init
+                0x000000001000403c       0x64 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x000000001000403c                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x00000000100042c0       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x00000000100042c0                float_table_shim_on_use_helper
- .text          0x00000000100042ec       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000100042ec                __aeabi_mem_init
- .text.memset   0x00000000100042fc        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000100042fc                __wrap_memset
- .text.memcpy   0x0000000010004308        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010004308                __wrap___aeabi_memcpy
-                0x0000000010004308                __wrap_memcpy
+                0x00000000100040a0       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x00000000100040a0                float_table_shim_on_use_helper
+ .text          0x00000000100040cc       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00000000100040cc                __aeabi_mem_init
+ .text.memset   0x00000000100040dc        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00000000100040dc                __wrap_memset
+ .text.memcpy   0x00000000100040e8        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00000000100040e8                __wrap___aeabi_memcpy
+                0x00000000100040e8                __wrap_memcpy
  .text.stdio_out_chars_no_crlf
-                0x0000000010004314       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100040f4       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x0000000010004324       0xb4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004104       0xb4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string.isra.0
-                0x00000000100043d8       0xfc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100041b8       0xfc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x00000000100044d4       0x98 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100044d4                __wrap_putchar
+                0x00000000100042b4       0x98 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100042b4                __wrap_putchar
  .text.__wrap_puts
-                0x000000001000456c       0x3c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x000000001000456c                __wrap_puts
+                0x000000001000434c       0x3c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x000000001000434c                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x00000000100045a8       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100045a8                stdio_set_driver_enabled
+                0x0000000010004388       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004388                stdio_set_driver_enabled
  .text.stdio_init_all
-                0x00000000100045d8        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100045d8                stdio_init_all
+                0x00000000100043b8        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100043b8                stdio_init_all
  .text.resetd_init
-                0x00000000100045e0        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100043c0        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x00000000100045e4        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100043c4        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x00000000100045f0       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100043d0       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x0000000010004618        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100043f8        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x000000001000461c       0x64 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100043fc       0x64 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x0000000010004680        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x0000000010004680                usbd_app_driver_get_cb
+                0x0000000010004460        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004460                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x000000001000468c       0x34 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x000000001000468c                tud_cdc_line_coding_cb
+                0x000000001000446c       0x34 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x000000001000446c                tud_cdc_line_coding_cb
  .text.stdio_usb_set_chars_available_callback
-                0x00000000100046c0       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x00000000100046c0                stdio_usb_set_chars_available_callback
- .text.usb_irq  0x00000000100046d4       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100044a0       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100044a0                stdio_usb_set_chars_available_callback
+ .text.usb_irq  0x00000000100044b4       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x00000000100046e4       0x54 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100044c4       0x54 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_in_chars
-                0x0000000010004738       0x90 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010004738                stdio_usb_in_chars
+                0x0000000010004518       0x90 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004518                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x00000000100047c8      0x100 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100045a8      0x100 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x00000000100048c8       0xa8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100046a8       0xa8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.tud_cdc_rx_cb
-                0x0000000010004970       0x20 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010004970                tud_cdc_rx_cb
+                0x0000000010004750       0x20 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004750                tud_cdc_rx_cb
  .text.stdio_usb_init
-                0x0000000010004990       0xdc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010004990                stdio_usb_init
+                0x0000000010004770       0xdc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004770                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x0000000010004a6c        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004a6c                tud_descriptor_device_cb
+                0x000000001000484c        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x000000001000484c                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x0000000010004a74        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004a74                tud_descriptor_configuration_cb
+                0x0000000010004854        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010004854                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x0000000010004a7c       0x74 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004a7c                tud_descriptor_string_cb
+                0x000000001000485c       0x74 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x000000001000485c                tud_descriptor_string_cb
  .text.startup._retrieve_unique_id_on_boot
-                0x0000000010004af0       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x00000000100048d0       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x0000000010004b00      0x1a8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x0000000010004b00                pico_get_unique_board_id_string
+                0x00000000100048e0      0x1a8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x00000000100048e0                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x0000000010004ca8       0x40 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x0000000010004ca8                flash_get_unique_id
+                0x0000000010004a88       0x40 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x0000000010004a88                flash_get_unique_id
  .text.dcd_int_enable
-                0x0000000010004ce8        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004ce8                dcd_int_enable
+                0x0000000010004ac8        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004ac8                dcd_int_enable
  .text.dcd_set_address
-                0x0000000010004cf4       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004cf4                dcd_set_address
+                0x0000000010004ad4       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004ad4                dcd_set_address
  .text.dcd_connect
-                0x0000000010004d08       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004d08                dcd_connect
+                0x0000000010004ae8       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004ae8                dcd_connect
  .text.dcd_init
-                0x0000000010004d18       0x98 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004d18                dcd_init
+                0x0000000010004af8       0x98 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004af8                dcd_init
  .text.dcd_edpt0_status_complete
-                0x0000000010004db0       0x1c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004db0                dcd_edpt0_status_complete
+                0x0000000010004b90       0x1c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004b90                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x0000000010004dcc      0x108 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004dcc                dcd_edpt_open
+                0x0000000010004bac      0x108 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004bac                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x0000000010004ed4        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004ed4                dcd_edpt_close_all
+                0x0000000010004cb4        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004cb4                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x0000000010004edc       0x24 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004edc                dcd_edpt_xfer
+                0x0000000010004cbc       0x24 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004cbc                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x0000000010004f00       0x38 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004f00                dcd_edpt_stall
+                0x0000000010004ce0       0x38 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004ce0                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x0000000010004f38       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004f38                dcd_edpt_clear_stall
+                0x0000000010004d18       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004d18                dcd_edpt_clear_stall
  .text.rp2040_usb_init
-                0x0000000010004f68       0x4c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010004f68                rp2040_usb_init
+                0x0000000010004d48       0x4c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004d48                rp2040_usb_init
  .text.hw_endpoint_xfer_start
-                0x0000000010004fb4       0x50 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010004fb4                hw_endpoint_xfer_start
+                0x0000000010004d94       0x50 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004d94                hw_endpoint_xfer_start
  .text.tud_mounted
-                0x0000000010005004       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005004                tud_mounted
+                0x0000000010004de4       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004de4                tud_mounted
  .text.tud_suspended
-                0x0000000010005014       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005014                tud_suspended
+                0x0000000010004df4       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004df4                tud_suspended
  .text.tud_inited
-                0x0000000010005024       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005024                tud_inited
+                0x0000000010004e04       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004e04                tud_inited
  .text.tud_init
-                0x0000000010005038       0xe4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005038                tud_init
+                0x0000000010004e18       0xe4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004e18                tud_init
  .text.tud_task_ext
-                0x000000001000511c      0x854 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000001000511c                tud_task_ext
+                0x0000000010004efc      0x854 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004efc                tud_task_ext
  .text.usbd_open_edpt_pair
-                0x0000000010005970       0x9c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005970                usbd_open_edpt_pair
+                0x0000000010005750       0x9c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005750                usbd_open_edpt_pair
  .text.usbd_defer_func
-                0x0000000010005a0c       0x48 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005a0c                usbd_defer_func
+                0x00000000100057ec       0x48 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100057ec                usbd_defer_func
  .text.usbd_edpt_open
-                0x0000000010005a54       0x34 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005a54                usbd_edpt_open
+                0x0000000010005834       0x34 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005834                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x0000000010005a88       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005a88                usbd_edpt_claim
+                0x0000000010005868       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005868                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x0000000010005ab0       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005ab0                usbd_edpt_release
+                0x0000000010005890       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005890                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x0000000010005ad8       0x4c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005ad8                usbd_edpt_xfer
+                0x00000000100058b8       0x4c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100058b8                usbd_edpt_xfer
  .text.tud_control_status
-                0x0000000010005b24       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005b24                tud_control_status
+                0x0000000010005904       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005904                tud_control_status
  .text.tud_control_xfer
-                0x0000000010005b54       0xbc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005b54                tud_control_xfer
+                0x0000000010005934       0xbc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005934                tud_control_xfer
  .text.usbd_control_reset
-                0x0000000010005c10       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005c10                usbd_control_reset
+                0x00000000100059f0       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00000000100059f0                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x0000000010005c24        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005c24                usbd_control_set_complete_callback
+                0x0000000010005a04        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005a04                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x0000000010005c30       0x1c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005c30                usbd_control_set_request
+                0x0000000010005a10       0x1c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005a10                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x0000000010005c4c       0xfc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005c4c                usbd_control_xfer_cb
+                0x0000000010005a2c       0xfc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005a2c                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x0000000010005d48       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005d48                tud_cdc_n_connected
+                0x0000000010005b28       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005b28                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x0000000010005d78       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005d78                tud_cdc_n_available
+                0x0000000010005b58       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005b58                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x0000000010005d90       0x70 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005d90                tud_cdc_n_read
+                0x0000000010005b70       0x70 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005b70                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x0000000010005e00       0x78 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005e00                tud_cdc_n_write_flush
+                0x0000000010005be0       0x78 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005be0                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x0000000010005e78       0x34 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005e78                tud_cdc_n_write
+                0x0000000010005c58       0x34 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005c58                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x0000000010005eac       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005eac                tud_cdc_n_write_available
+                0x0000000010005c8c       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005c8c                tud_cdc_n_write_available
  .text.cdcd_init
-                0x0000000010005ec4       0x7c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005ec4                cdcd_init
+                0x0000000010005ca4       0x7c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005ca4                cdcd_init
  .text.cdcd_reset
-                0x0000000010005f40       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005f40                cdcd_reset
+                0x0000000010005d20       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005d20                cdcd_reset
  .text.cdcd_open
-                0x0000000010005f6c       0xe8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005f6c                cdcd_open
+                0x0000000010005d4c       0xe8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005d4c                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x0000000010006054       0xe4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006054                cdcd_control_xfer_cb
+                0x0000000010005e34       0xe4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005e34                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x0000000010006138      0x148 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006138                cdcd_xfer_cb
+                0x0000000010005f18      0x148 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005f18                cdcd_xfer_cb
  .text.tusb_init
-                0x0000000010006280        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010006280                tusb_init
+                0x0000000010006060        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010006060                tusb_init
  .text.tusb_inited
-                0x000000001000628c        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x000000001000628c                tusb_inited
+                0x000000001000606c        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x000000001000606c                tusb_inited
  .text.tu_edpt_claim
-                0x0000000010006294       0x50 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010006294                tu_edpt_claim
+                0x0000000010006074       0x50 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010006074                tu_edpt_claim
  .text.tu_edpt_release
-                0x00000000100062e4       0x38 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x00000000100062e4                tu_edpt_release
+                0x00000000100060c4       0x38 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x00000000100060c4                tu_edpt_release
  .text.tu_edpt_validate
-                0x000000001000631c       0x78 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x000000001000631c                tu_edpt_validate
+                0x00000000100060fc       0x78 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x00000000100060fc                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x0000000010006394       0x34 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010006394                tu_edpt_bind_driver
+                0x0000000010006174       0x34 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010006174                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x00000000100063c8       0x70 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100063c8                tu_fifo_config
+                0x00000000100061a8       0x70 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100061a8                tu_fifo_config
  .text.tu_fifo_count
-                0x0000000010006438       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006438                tu_fifo_count
+                0x0000000010006218       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006218                tu_fifo_count
  .text.tu_fifo_empty
-                0x0000000010006464       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006464                tu_fifo_empty
+                0x0000000010006244       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006244                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x0000000010006474       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006474                tu_fifo_remaining
+                0x0000000010006254       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006254                tu_fifo_remaining
  .text.tu_fifo_read
-                0x00000000100064a0       0xa0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100064a0                tu_fifo_read
+                0x0000000010006280       0xa0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006280                tu_fifo_read
  .text.tu_fifo_read_n
-                0x0000000010006540       0xec CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006540                tu_fifo_read_n
+                0x0000000010006320       0xec CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006320                tu_fifo_read_n
  .text.tu_fifo_write
-                0x000000001000662c       0x88 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x000000001000662c                tu_fifo_write
+                0x000000001000640c       0x88 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000640c                tu_fifo_write
  .text.tu_fifo_write_n
-                0x00000000100066b4      0x168 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100066b4                tu_fifo_write_n
+                0x0000000010006494      0x168 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006494                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x000000001000681c       0x40 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x000000001000681c                tu_fifo_clear
+                0x00000000100065fc       0x40 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100065fc                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x000000001000685c       0x48 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x000000001000685c                tu_fifo_set_overwritable
+                0x000000001000663c       0x48 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000663c                tu_fifo_set_overwritable
  .text.vPortSVCHandler
-                0x00000000100068a4        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x00000000100068a4                vPortSVCHandler
- *fill*         0x00000000100068a8        0x8 
+                0x0000000010006684        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000010006684                vPortSVCHandler
+ *fill*         0x0000000010006688        0x8 
  .text.vPortStartFirstTask
-                0x00000000100068b0       0x38 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000010006690       0x38 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
  .text.prvFIFOInterruptHandler
-                0x00000000100068e8       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
- *fill*         0x0000000010006914        0xc 
+                0x00000000100066c8       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+ *fill*         0x00000000100066f4        0xc 
  .text.xPortPendSVHandler
-                0x0000000010006920       0x78 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000010006920                xPortPendSVHandler
+                0x0000000010006700       0x78 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000010006700                xPortPendSVHandler
  .text.xPortSysTickHandler
-                0x0000000010006998       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000010006998                xPortSysTickHandler
+                0x0000000010006778       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000010006778                xPortSysTickHandler
  .text.prvTaskExitError
-                0x00000000100069c4        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x00000000100067a4        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
  .text.pxPortInitialiseStack
-                0x00000000100069cc       0x20 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x00000000100069cc                pxPortInitialiseStack
+                0x00000000100067ac       0x20 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x00000000100067ac                pxPortInitialiseStack
  .text.vPortYield
-                0x00000000100069ec       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x00000000100069ec                vPortYield
+                0x00000000100067cc       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x00000000100067cc                vPortYield
  .text.vPortEnableInterrupts
-                0x0000000010006a04       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000010006a04                vPortEnableInterrupts
+                0x00000000100067e4       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x00000000100067e4                vPortEnableInterrupts
  .text.vYieldCore
-                0x0000000010006a34        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000010006a34                vYieldCore
+                0x0000000010006814        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000010006814                vYieldCore
  .text.vPortSetupTimerInterrupt
-                0x0000000010006a40       0x34 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000010006a40                vPortSetupTimerInterrupt
+                0x0000000010006820       0x34 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000010006820                vPortSetupTimerInterrupt
  .text.xPortStartSchedulerOnCore.isra.0
-                0x0000000010006a74       0xac CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000010006854       0xac CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
  .text.prvDisableInterruptsAndPortStartSchedulerOnCore
-                0x0000000010006b20        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000010006900        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
  .text.xPortStartScheduler
-                0x0000000010006b2c       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000010006b2c                xPortStartScheduler
+                0x000000001000690c       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x000000001000690c                xPortStartScheduler
  .text.ulPortLockGetCurrentOwnerId
-                0x0000000010006b54       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000010006b54                ulPortLockGetCurrentOwnerId
+                0x0000000010006934       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000010006934                ulPortLockGetCurrentOwnerId
  .text.vPortLockInternalSpinUnlockWithNotify
-                0x0000000010006b84       0x84 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000010006b84                vPortLockInternalSpinUnlockWithNotify
+                0x0000000010006964       0x84 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000010006964                vPortLockInternalSpinUnlockWithNotify
  .text.xPortLockInternalSpinUnlockWithBestEffortWaitOrTimeout
-                0x0000000010006c08       0xec CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
-                0x0000000010006c08                xPortLockInternalSpinUnlockWithBestEffortWaitOrTimeout
+                0x00000000100069e8       0xec CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x00000000100069e8                xPortLockInternalSpinUnlockWithBestEffortWaitOrTimeout
  .text.startup.prvRuntimeInitializer
-                0x0000000010006cf4       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
+                0x0000000010006ad4       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
  .text.vEventGroupSetBitsCallback
-                0x0000000010006d04       0x8c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
-                0x0000000010006d04                vEventGroupSetBitsCallback
+                0x0000000010006ae4       0x8c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
+                0x0000000010006ae4                vEventGroupSetBitsCallback
  .text.xEventGroupCreate
-                0x0000000010006d90       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
-                0x0000000010006d90                xEventGroupCreate
+                0x0000000010006b70       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
+                0x0000000010006b70                xEventGroupCreate
  .text.xEventGroupWaitBits
-                0x0000000010006da8       0xb8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
-                0x0000000010006da8                xEventGroupWaitBits
+                0x0000000010006b88       0xb8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
+                0x0000000010006b88                xEventGroupWaitBits
  .text.xEventGroupSetBits
-                0x0000000010006e60       0x90 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
-                0x0000000010006e60                xEventGroupSetBits
+                0x0000000010006c40       0x90 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
+                0x0000000010006c40                xEventGroupSetBits
  .text.xEventGroupSetBitsFromISR
-                0x0000000010006ef0       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
-                0x0000000010006ef0                xEventGroupSetBitsFromISR
+                0x0000000010006cd0       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
+                0x0000000010006cd0                xEventGroupSetBitsFromISR
  .text.vListInitialise
-                0x0000000010006f04       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
-                0x0000000010006f04                vListInitialise
+                0x0000000010006ce4       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
+                0x0000000010006ce4                vListInitialise
  .text.vListInitialiseItem
-                0x0000000010006f1c        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
-                0x0000000010006f1c                vListInitialiseItem
+                0x0000000010006cfc        0x8 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
+                0x0000000010006cfc                vListInitialiseItem
  .text.vListInsertEnd
-                0x0000000010006f24       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
-                0x0000000010006f24                vListInsertEnd
+                0x0000000010006d04       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
+                0x0000000010006d04                vListInsertEnd
  .text.vListInsert
-                0x0000000010006f3c       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
-                0x0000000010006f3c                vListInsert
+                0x0000000010006d1c       0x30 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
+                0x0000000010006d1c                vListInsert
  .text.uxListRemove
-                0x0000000010006f6c       0x24 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
-                0x0000000010006f6c                uxListRemove
+                0x0000000010006d4c       0x24 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
+                0x0000000010006d4c                uxListRemove
  .text.prvUnlockQueue
-                0x0000000010006f90      0x140 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
+                0x0000000010006d70      0x140 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
  .text.prvNotifyQueueSetContainer
-                0x00000000100070d0       0x94 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
+                0x0000000010006eb0       0x94 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
  .text.xQueueGenericCreate
-                0x0000000010007164       0x6c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
-                0x0000000010007164                xQueueGenericCreate
+                0x0000000010006f44       0x6c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
+                0x0000000010006f44                xQueueGenericCreate
  .text.xQueueGenericSend
-                0x00000000100071d0      0x1cc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
-                0x00000000100071d0                xQueueGenericSend
+                0x0000000010006fb0      0x1cc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
+                0x0000000010006fb0                xQueueGenericSend
  .text.xQueueCreateMutex
-                0x000000001000739c       0x6c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
-                0x000000001000739c                xQueueCreateMutex
+                0x000000001000717c       0x6c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
+                0x000000001000717c                xQueueCreateMutex
  .text.xQueueGenericSendFromISR
-                0x0000000010007408      0x134 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
-                0x0000000010007408                xQueueGenericSendFromISR
+                0x00000000100071e8      0x134 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
+                0x00000000100071e8                xQueueGenericSendFromISR
  .text.xQueueReceive
-                0x000000001000753c      0x11c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
-                0x000000001000753c                xQueueReceive
+                0x000000001000731c      0x11c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
+                0x000000001000731c                xQueueReceive
  .text.xQueueSemaphoreTake
-                0x0000000010007658      0x150 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
-                0x0000000010007658                xQueueSemaphoreTake
+                0x0000000010007438      0x150 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
+                0x0000000010007438                xQueueSemaphoreTake
  .text.vQueueAddToRegistry
-                0x00000000100077a8       0x60 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
-                0x00000000100077a8                vQueueAddToRegistry
+                0x0000000010007588       0x60 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
+                0x0000000010007588                vQueueAddToRegistry
  .text.vQueueWaitForMessageRestricted
-                0x0000000010007808       0x48 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
-                0x0000000010007808                vQueueWaitForMessageRestricted
+                0x00000000100075e8       0x48 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
+                0x00000000100075e8                vQueueWaitForMessageRestricted
  .text.prvMinimalIdleTask
-                0x0000000010007850       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010007630       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.prvAddCurrentTaskToDelayedList
-                0x0000000010007868       0xe0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010007648       0xe0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.vTaskExitCritical.part.0
-                0x0000000010007948       0xc4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010007728       0xc4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.prvCheckForRunStateChange.part.0
-                0x0000000010007a0c      0x18c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x00000000100077ec      0x18c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+ .text.vTaskSuspendAll.part.0
+                0x0000000010007978       0xfc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.prvIdleTask
-                0x0000000010007b98      0x1f0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010007a74      0x1f0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.prvYieldForTask
-                0x0000000010007d88       0xe0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010007c64       0xe0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+ .text.vTaskCoreAffinitySet
+                0x0000000010007d44      0x1f4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010007d44                vTaskCoreAffinitySet
+ .text.vTaskCoreAffinityGet
+                0x0000000010007f38      0x158 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010007f38                vTaskCoreAffinityGet
  .text.vTaskSuspendAll
-                0x0000000010007e68      0x108 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x0000000010007e68                vTaskSuspendAll
+                0x0000000010008090      0x108 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010008090                vTaskSuspendAll
  .text.xTaskGetTickCount
-                0x0000000010007f70        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x0000000010007f70                xTaskGetTickCount
+                0x0000000010008198        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010008198                xTaskGetTickCount
+ .text.pcTaskGetName
+                0x00000000100081a4       0x24 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x00000000100081a4                pcTaskGetName
  .text.vTaskSwitchContext
-                0x0000000010007f7c      0x350 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x0000000010007f7c                vTaskSwitchContext
+                0x00000000100081c8      0x350 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x00000000100081c8                vTaskSwitchContext
  .text.vTaskPlaceOnEventList
-                0x00000000100082cc       0xe0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x00000000100082cc                vTaskPlaceOnEventList
+                0x0000000010008518       0xe0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010008518                vTaskPlaceOnEventList
  .text.vTaskPlaceOnUnorderedEventList
-                0x00000000100083ac       0x48 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x00000000100083ac                vTaskPlaceOnUnorderedEventList
+                0x00000000100085f8       0x48 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x00000000100085f8                vTaskPlaceOnUnorderedEventList
  .text.vTaskPlaceOnEventListRestricted
-                0x00000000100083f4      0x100 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x00000000100083f4                vTaskPlaceOnEventListRestricted
+                0x0000000010008640      0x100 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010008640                vTaskPlaceOnEventListRestricted
  .text.xTaskRemoveFromEventList
-                0x00000000100084f4      0x140 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x00000000100084f4                xTaskRemoveFromEventList
+                0x0000000010008740      0x140 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010008740                xTaskRemoveFromEventList
  .text.vTaskInternalSetTimeOutState
-                0x0000000010008634       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x0000000010008634                vTaskInternalSetTimeOutState
+                0x0000000010008880       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010008880                vTaskInternalSetTimeOutState
  .text.xTaskCheckForTimeOut
-                0x000000001000864c      0x1e0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x000000001000864c                xTaskCheckForTimeOut
+                0x0000000010008898      0x1e0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010008898                xTaskCheckForTimeOut
  .text.vTaskMissedYield
-                0x000000001000882c       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x000000001000882c                vTaskMissedYield
+                0x0000000010008a78       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010008a78                vTaskMissedYield
  .text.xTaskGetCurrentTaskHandle
-                0x0000000010008840       0x1c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x0000000010008840                xTaskGetCurrentTaskHandle
+                0x0000000010008a8c       0x1c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010008a8c                xTaskGetCurrentTaskHandle
  .text.xTaskGetSchedulerState
-                0x000000001000885c      0x14c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x000000001000885c                xTaskGetSchedulerState
+                0x0000000010008aa8      0x14c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010008aa8                xTaskGetSchedulerState
  .text.xTaskPriorityInherit
-                0x00000000100089a8       0xdc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x00000000100089a8                xTaskPriorityInherit
+                0x0000000010008bf4       0xdc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010008bf4                xTaskPriorityInherit
  .text.xTaskPriorityDisinherit
-                0x0000000010008a84       0x58 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x0000000010008a84                xTaskPriorityDisinherit
+                0x0000000010008cd0       0x58 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010008cd0                xTaskPriorityDisinherit
  .text.vTaskPriorityDisinheritAfterTimeout
-                0x0000000010008adc       0x70 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x0000000010008adc                vTaskPriorityDisinheritAfterTimeout
+                0x0000000010008d28       0x70 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010008d28                vTaskPriorityDisinheritAfterTimeout
  .text.vTaskYieldWithinAPI
-                0x0000000010008b4c       0x34 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x0000000010008b4c                vTaskYieldWithinAPI
+                0x0000000010008d98       0x34 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010008d98                vTaskYieldWithinAPI
  .text.vTaskEnterCritical
-                0x0000000010008b80      0x110 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x0000000010008b80                vTaskEnterCritical
+                0x0000000010008dcc      0x110 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010008dcc                vTaskEnterCritical
  .text.xTaskCreateAffinitySet
-                0x0000000010008c90      0x2e0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x0000000010008c90                xTaskCreateAffinitySet
+                0x0000000010008edc      0x2e0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010008edc                xTaskCreateAffinitySet
  .text.vTaskStartScheduler
-                0x0000000010008f70       0xc0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x0000000010008f70                vTaskStartScheduler
+                0x00000000100091bc       0xc0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x00000000100091bc                vTaskStartScheduler
  .text.xTaskIncrementTick
-                0x0000000010009030      0x240 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x0000000010009030                xTaskIncrementTick
+                0x000000001000927c      0x240 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x000000001000927c                xTaskIncrementTick
  .text.xTaskResumeAll.part.0
-                0x0000000010009270      0x144 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x00000000100094bc      0x144 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
  .text.xTaskResumeAll
-                0x00000000100093b4       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x00000000100093b4                xTaskResumeAll
+                0x0000000010009600       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010009600                xTaskResumeAll
+ .text.vTaskDelay
+                0x0000000010009618       0x70 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010009618                vTaskDelay
  .text.vTaskRemoveFromUnorderedEventList
-                0x00000000100093cc       0x7c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x00000000100093cc                vTaskRemoveFromUnorderedEventList
+                0x0000000010009688       0x7c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010009688                vTaskRemoveFromUnorderedEventList
  .text.xTaskCreate
-                0x0000000010009448      0x2e4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x0000000010009448                xTaskCreate
+                0x0000000010009704      0x2e4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010009704                xTaskCreate
  .text.vTaskExitCritical
-                0x000000001000972c       0x34 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x000000001000972c                vTaskExitCritical
+                0x00000000100099e8       0x34 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x00000000100099e8                vTaskExitCritical
  .text.uxTaskResetEventItemValue
-                0x0000000010009760       0x48 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x0000000010009760                uxTaskResetEventItemValue
+                0x0000000010009a1c       0x48 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010009a1c                uxTaskResetEventItemValue
  .text.pvTaskIncrementMutexHeldCount
-                0x00000000100097a8       0x4c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x00000000100097a8                pvTaskIncrementMutexHeldCount
- .text.xTaskGenericNotifyWait
-                0x00000000100097f4      0x180 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x00000000100097f4                xTaskGenericNotifyWait
- .text.xTaskGenericNotifyFromISR
-                0x0000000010009974      0x264 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-                0x0000000010009974                xTaskGenericNotifyFromISR
+                0x0000000010009a64       0x4c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
+                0x0000000010009a64                pvTaskIncrementMutexHeldCount
  .text.prvSwitchTimerLists
-                0x0000000010009bd8       0x9c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
+                0x0000000010009ab0       0x9c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
  .text.prvTimerTask
-                0x0000000010009c74      0x268 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
+                0x0000000010009b4c      0x268 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
  .text.xTimerCreateTimerTask
-                0x0000000010009edc       0x8c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
-                0x0000000010009edc                xTimerCreateTimerTask
+                0x0000000010009db4       0x8c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
+                0x0000000010009db4                xTimerCreateTimerTask
  .text.xTimerPendFunctionCallFromISR
-                0x0000000010009f68       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
-                0x0000000010009f68                xTimerPendFunctionCallFromISR
+                0x0000000010009e40       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
+                0x0000000010009e40                xTimerPendFunctionCallFromISR
  .text.exception_set_exclusive_handler
-                0x0000000010009f90       0x48 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-                0x0000000010009f90                exception_set_exclusive_handler
+                0x0000000010009e68       0x48 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+                0x0000000010009e68                exception_set_exclusive_handler
  .text.core1_trampoline
-                0x0000000010009fd8        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x0000000010009eb0        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .text.core1_wrapper
-                0x0000000010009fdc        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x0000000010009fdc                core1_wrapper
+                0x0000000010009eb4        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x0000000010009eb4                core1_wrapper
  .text.multicore_launch_core1_raw
-                0x0000000010009fe8       0x84 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x0000000010009fe8                multicore_launch_core1_raw
+                0x0000000010009ec0       0x84 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x0000000010009ec0                multicore_launch_core1_raw
  .text.multicore_launch_core1
-                0x000000001000a06c       0x4c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x000000001000a06c                multicore_launch_core1
+                0x0000000010009f44       0x4c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x0000000010009f44                multicore_launch_core1
  .text.pvPortMalloc
-                0x000000001000a0b8      0x16c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
-                0x000000001000a0b8                pvPortMalloc
+                0x0000000010009f90      0x16c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+                0x0000000010009f90                pvPortMalloc
  .text.vPortFree
-                0x000000001000a224       0x90 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
-                0x000000001000a224                vPortFree
- .text.strlen   0x000000001000a2b4       0x5c /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x000000001000a2b4                strlen
+                0x000000001000a0fc       0x90 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
+                0x000000001000a0fc                vPortFree
+ .text.strlen   0x000000001000a18c       0x5c /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x000000001000a18c                strlen
  *(.fini)
- .fini          0x000000001000a310        0x4 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x000000001000a310                _fini
- *fill*         0x000000001000a314        0x4 
- .fini.__stub   0x000000001000a318       0xd0 linker stubs
+ .fini          0x000000001000a1e8        0x4 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x000000001000a1e8                _fini
+ *fill*         0x000000001000a1ec        0x4 
+ .fini.__stub   0x000000001000a1f0       0xd0 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2533,139 +2533,140 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-non
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x000000001000a3e8        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x000000001000a3e8                . = ALIGN (0x4)
+ .eh_frame      0x000000001000a2c0        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x000000001000a2c0                . = ALIGN (0x4)
 
-.glue_7         0x000000001000a3e8        0x0
- .glue_7        0x000000001000a3e8        0x0 linker stubs
+.glue_7         0x000000001000a2c0        0x0
+ .glue_7        0x000000001000a2c0        0x0 linker stubs
 
-.glue_7t        0x000000001000a3e8        0x0
- .glue_7t       0x000000001000a3e8        0x0 linker stubs
+.glue_7t        0x000000001000a2c0        0x0
+ .glue_7t       0x000000001000a2c0        0x0 linker stubs
 
-.vfp11_veneer   0x000000001000a3e8        0x0
- .vfp11_veneer  0x000000001000a3e8        0x0 linker stubs
+.vfp11_veneer   0x000000001000a2c0        0x0
+ .vfp11_veneer  0x000000001000a2c0        0x0 linker stubs
 
-.v4_bx          0x000000001000a3e8        0x0
- .v4_bx         0x000000001000a3e8        0x0 linker stubs
+.v4_bx          0x000000001000a2c0        0x0
+ .v4_bx         0x000000001000a2c0        0x0 linker stubs
 
-.iplt           0x000000001000a3e8        0x0
- .iplt          0x000000001000a3e8        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x000000001000a2c0        0x0
+ .iplt          0x000000001000a2c0        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x000000001000a3e8      0x5e0
+.rodata         0x000000001000a2c0      0x5b0
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
- .rodata.vNotifyTask.str1.4
-                0x000000001000a3e8       0x18 CMakeFiles/asymmetric-multiprocessing.dir/main.c.obj
+ .rodata.vTaskSMP.str1.4
+                0x000000001000a2c0        0xf CMakeFiles/asymmetric-multiprocessing.dir/main.c.obj
+ *fill*         0x000000001000a2cf        0x1 
  .rodata.main.str1.4
-                0x000000001000a400       0x2e CMakeFiles/asymmetric-multiprocessing.dir/main.c.obj
- *fill*         0x000000001000a42e        0x2 
+                0x000000001000a2d0        0xa CMakeFiles/asymmetric-multiprocessing.dir/main.c.obj
+                                          0xe (size before relaxing)
+ *fill*         0x000000001000a2da        0x2 
  .rodata.spin_lock_claim.str1.4
-                0x000000001000a430       0x1f CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x000000001000a44f        0x1 
+                0x000000001000a2dc       0x1f CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x000000001000a2fb        0x1 
  .rodata.spin_lock_claim_unused.str1.4
-                0x000000001000a450       0x1b CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x000000001000a46b        0x1 
+                0x000000001000a2fc       0x1b CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x000000001000a317        0x1 
  .rodata.user_irq_claim_unused.str1.4
-                0x000000001000a46c       0x1b CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001000a487        0x1 
+                0x000000001000a318       0x1b CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x000000001000a333        0x1 
  .rodata.hardware_alarm_claim.str1.4
-                0x000000001000a488       0x22 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x000000001000a4aa        0x2 
+                0x000000001000a334       0x22 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x000000001000a356        0x2 
  .rodata.panic.str1.4
-                0x000000001000a4ac       0x12 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x000000001000a4be        0x2 
+                0x000000001000a358       0x12 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x000000001000a36a        0x2 
  .rodata.panic_unsupported.str1.4
-                0x000000001000a4c0        0xe CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x000000001000a4ce        0x2 
+                0x000000001000a36c        0xe CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x000000001000a37a        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x000000001000a4d0        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000000001000a37c        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x000000001000a4dc       0x15 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x000000001000a4f1        0x3 
+                0x000000001000a388       0x15 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x000000001000a39d        0x3 
  .rodata._vsnprintf
-                0x000000001000a4f4      0x1e0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x000000001000a6d4        0x4 
+                0x000000001000a3a0      0x1e0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.0
-                0x000000001000a6d8       0x50 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x000000001000a580       0x50 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.str1.4
-                0x000000001000a728       0x50 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000a5d0       0x50 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x000000001000a778        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000a620        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x000000001000a784        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000a62c        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x000000001000a790        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000a638        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x000000001000a79c        0x2 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x000000001000a79e        0x2 
+                0x000000001000a644        0x2 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x000000001000a646        0x2 
  .rodata._resetd_driver
-                0x000000001000a7a0       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x000000001000a648       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x000000001000a7b8       0x13 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x000000001000a7cb        0x1 
+                0x000000001000a660       0x13 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x000000001000a673        0x1 
  .rodata.__bi_188.0
-                0x000000001000a7cc        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x000000001000a674        0xc CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x000000001000a7d8       0x2a CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x000000001000a802        0x2 
+                0x000000001000a680       0x2a CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x000000001000a6aa        0x2 
  .rodata.usbd_desc_cfg
-                0x000000001000a804       0x54 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x000000001000a6ac       0x54 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x000000001000a858       0x12 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x000000001000a86a        0x2 
+                0x000000001000a700       0x12 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x000000001000a712        0x2 
  .rodata.usbd_desc_str
-                0x000000001000a86c       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x000000001000a714       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.str1.4
-                0x000000001000a884       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000001000a72c       0x14 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.str1.4
-                0x000000001000a898       0x53 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x000000001000a8eb        0x1 
+                0x000000001000a740       0x53 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x000000001000a793        0x1 
  .rodata.tud_task_ext
-                0x000000001000a8ec       0x8c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000001000a794       0x8c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x000000001000a978       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000001000a820       0x18 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata.prvTimerTask
-                0x000000001000a990       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
+                0x000000001000a838       0x28 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
  .rodata.xTimerCreateTimerTask.str1.4
-                0x000000001000a9b8       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
-                0x000000001000a9c8                . = ALIGN (0x4)
+                0x000000001000a860       0x10 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
+                0x000000001000a870                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x000000001000a9c8                . = ALIGN (0x4)
+                0x000000001000a870                . = ALIGN (0x4)
 
-.rel.dyn        0x000000001000a9c8        0x0
- .rel.iplt      0x000000001000a9c8        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x000000001000a870        0x0
+ .rel.iplt      0x000000001000a870        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000001000a9c8                __exidx_start = .
+                0x000000001000a870                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x000000001000a9c8                __exidx_end = .
-                0x000000001000a9c8                . = ALIGN (0x4)
-                0x000000001000a9c8                __binary_info_start = .
+                0x000000001000a870                __exidx_end = .
+                0x000000001000a870                . = ALIGN (0x4)
+                0x000000001000a870                __binary_info_start = .
 
-.binary_info    0x000000001000a9c8       0x20
+.binary_info    0x000000001000a870       0x20
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x000000001000a9c8        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000a870        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x000000001000a9cc        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000a874        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x000000001000a9d0        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000a878        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x000000001000a9d4        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000a87c        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x000000001000a9d8        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000a880        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x000000001000a9dc        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000a884        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x000000001000a9e0        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000a888        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr188
-                0x000000001000a9e4        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x000000001000a9e8                __binary_info_end = .
-                0x000000001000a9e8                . = ALIGN (0x4)
-                0x000000001000a9e8                __etext = .
+                0x000000001000a88c        0x4 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x000000001000a890                __binary_info_end = .
+                0x000000001000a890                . = ALIGN (0x4)
+                0x000000001000a890                __etext = .
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -2674,7 +2675,7 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-non
                 0x0000000020000000       0xc0 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0      0xe60 load address 0x000000001000a9e8
+.data           0x00000000200000c0      0xe60 load address 0x000000001000a890
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2816,27 +2817,27 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-non
                 0x0000000020000f20                . = ALIGN (0x4)
                 0x0000000020000f20                __data_end__ = .
 
-.igot.plt       0x0000000020000f20        0x0 load address 0x000000001000b848
+.igot.plt       0x0000000020000f20        0x0 load address 0x000000001000b6f0
  .igot.plt      0x0000000020000f20        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x0000000020000f20        0x0 load address 0x000000001000b848
+                0x0000000020000f20        0x0 load address 0x000000001000b6f0
                 0x0000000020000f20                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x000000001000b848
+.scratch_x      0x0000000020040000        0x0 load address 0x000000001000b6f0
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x000000001000b848                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x000000001000b6f0                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x000000001000b848
+.scratch_y      0x0000000020041000        0x0 load address 0x000000001000b6f0
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x000000001000b848                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x000000001000b6f0                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x0000000020000f20    0x21174
                 0x0000000020000f20                . = ALIGN (0x4)
@@ -3042,8 +3043,8 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-non
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x000000001000b848        0x0
-                0x000000001000b848                __flash_binary_end = .
+.flash_end      0x000000001000b6f0        0x0
+                0x000000001000b6f0                __flash_binary_end = .
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -3133,7 +3134,7 @@ LOAD CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freer
 LOAD CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 LOAD CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 LOAD CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
-LOAD /var/folders/m8/0vkhrb2d79q5vj59ddsmwqxmj03f_3/T//ccYevKfH.o
+LOAD /var/folders/m8/0vkhrb2d79q5vj59ddsmwqxmj03f_3/T//ccKABLKN.o
 LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -3265,7 +3266,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000908       0x2c CMakeFiles/asymmetric-multiprocessing.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
  .ARM.attributes
-                0x0000000000000934       0x22 /var/folders/m8/0vkhrb2d79q5vj59ddsmwqxmj03f_3/T//ccYevKfH.o
+                0x0000000000000934       0x22 /var/folders/m8/0vkhrb2d79q5vj59ddsmwqxmj03f_3/T//ccKABLKN.o
  .ARM.attributes
                 0x0000000000000956       0x1e /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

@@ -1,24 +1,36 @@
 #include <stdio.h>
+
 #include "pico/stdlib.h"
 
-int main()
+#include "FreeRTOS.h"
+
+#include "task.h"
+
+void vBlinkTask()
 {
-   // Initialise I/O
-   stdio_init_all();
 
-   // initialise GPIO (Green LED connected to pin 25)
-   gpio_init(25);
-   gpio_set_dir(25, GPIO_OUT);
-
-   // Main Loop
-   while (1)
+   for (;;)
    {
-      gpio_put(25, 1); // Set pin 25 to high
-      printf("LED ON!\n");
-      sleep_ms(1000); // 0.5s delay
 
-      gpio_put(25, 0); // Set pin 25 to low
+      gpio_put(PICO_DEFAULT_LED_PIN, 1);
+
+      printf("LED ON!\n");
+      vTaskDelay(4000);
+
+      gpio_put(PICO_DEFAULT_LED_PIN, 0);
       printf("LED OFF!\n");
-      sleep_ms(1000); // 0.5s delay
+      vTaskDelay(4000);
    }
+}
+
+void main()
+{
+
+   gpio_init(PICO_DEFAULT_LED_PIN);
+
+   gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
+
+   xTaskCreate(vBlinkTask, "Blink Task", 128, NULL, 1, NULL);
+
+   vTaskStartScheduler();
 }

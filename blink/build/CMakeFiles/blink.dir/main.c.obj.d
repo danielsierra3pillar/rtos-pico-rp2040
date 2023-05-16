@@ -72,4 +72,13 @@ CMakeFiles/blink.dir/main.c.obj: \
  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+ /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/FreeRTOS.h \
+ /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/projdefs.h \
+ /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/portable.h \
+ /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/deprecated_definitions.h \
+ /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
+ /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+ /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/mpu_wrappers.h \
+ /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/task.h \
+ /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/include/list.h
