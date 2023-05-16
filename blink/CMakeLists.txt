@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.13)
 include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 
 # Pull in FreeRTOS
-include($ENV{FREERTOS_KERNEL_PATH}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
+include(/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
 
 project(app C CXX ASM)
 set(CMAKE_C_STANDARD 11)
