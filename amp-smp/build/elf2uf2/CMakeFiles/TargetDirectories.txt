@@ -1,5 +1,0 @@
-/Users/daniel.sierra/Desktop/freertos-pico/amp-smp/build/elf2uf2/CMakeFiles/elf2uf2.dir
-/Users/daniel.sierra/Desktop/freertos-pico/amp-smp/build/elf2uf2/CMakeFiles/edit_cache.dir
-/Users/daniel.sierra/Desktop/freertos-pico/amp-smp/build/elf2uf2/CMakeFiles/rebuild_cache.dir
-/Users/daniel.sierra/Desktop/freertos-pico/amp-smp/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
-/Users/daniel.sierra/Desktop/freertos-pico/amp-smp/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
