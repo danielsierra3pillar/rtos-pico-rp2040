@@ -2,28 +2,32 @@
 #include "pico/stdlib.h"
 #include "FreeRTOS.h"
 #include "task.h"
+#include "queue.h"
+#include "semphr.h"
 
 void task1(void *pvParameters)
 {
+    char ch = '1';
     while (true)
     {
-        printf("Task 1 is currently running\n");
-        // for (int i = 0; i < 20000000; i++)
-        // {
-        // };
-        vTaskDelay(10000);
+        for (int i = 1; i < 10; i++)
+        {
+            putchar(ch);
+        }
+        puts("  ");
     }
 }
 
 void task2(void *pvParameters)
 {
+    char ch = '2';
     while (true)
     {
-        printf("Task 2 is currently running\n");
-        // for (int i = 0; i < 20000000; i++)
-        // {
-        // };
-        vTaskDelay(10000);
+        for (int i = 1; i < 10; i++)
+        {
+            putchar(ch);
+        }
+        puts("  ");
     }
 }
 
@@ -32,7 +36,7 @@ int main()
     stdio_init_all();
 
     xTaskCreate(task1, "Task 1", 256, NULL, 1, NULL);
-    xTaskCreate(task2, "Task 2", 256, NULL, 2, NULL);
+    xTaskCreate(task2, "Task 2", 256, NULL, 1, NULL);
     vTaskStartScheduler();
 
     while (1)

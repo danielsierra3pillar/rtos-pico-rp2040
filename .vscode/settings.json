@@ -1,3 +1,6 @@
 {
-  "cmake.sourceDirectory": "/Users/daniel.sierra/Desktop/freertos-pico/blink"
+  "cmake.sourceDirectory": "/Users/daniel.sierra/Desktop/freertos-pico/blink",
+  "files.associations": {
+    "freertos.h": "c"
+  }
 }

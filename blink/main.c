@@ -6,31 +6,28 @@
 
 #include "task.h"
 
-void vBlinkTask()
+void led_task()
 {
-
-   for (;;)
+   const uint LED_PIN = PICO_DEFAULT_LED_PIN;
+   gpio_init(LED_PIN);
+   gpio_set_dir(LED_PIN, GPIO_OUT);
+   while (true)
    {
-
-      gpio_put(PICO_DEFAULT_LED_PIN, 1);
-
-      printf("LED ON!\n");
-      vTaskDelay(4000);
-
-      gpio_put(PICO_DEFAULT_LED_PIN, 0);
-      printf("LED OFF!\n");
-      vTaskDelay(4000);
+      gpio_put(LED_PIN, 1);
+      vTaskDelay(100);
+      gpio_put(LED_PIN, 0);
+      vTaskDelay(100);
    }
 }
 
-void main()
+int main()
 {
+   stdio_init_all();
 
-   gpio_init(PICO_DEFAULT_LED_PIN);
-
-   gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
-
-   xTaskCreate(vBlinkTask, "Blink Task", 128, NULL, 1, NULL);
-
+   xTaskCreate(led_task, "LED_Task", 256, NULL, 1, NULL);
    vTaskStartScheduler();
+
+   while (1)
+   {
+   };
 }

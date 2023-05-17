@@ -28,12 +28,12 @@ void led_task()
 
 void button_task()
 {
-    gpio_init(20);
-    gpio_set_dir(20, GPIO_IN);
+    gpio_init(6);
+    gpio_set_dir(6, GPIO_IN);
 
     while (true)
     {
-        if (gpio_get(20) != 0)
+        if (gpio_get(6) != 0)
         {
             xSemaphoreGive(count);
             vTaskDelay(20);
