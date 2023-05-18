@@ -1539,7 +1539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " /Users/daniel.sierra/Desktop/pico-sdk/src/rp2_common/cmsis /Users/daniel.sierra/Desktop/pico-sdk/src/rp2040/hardware_regs /Users/daniel.sierra/Desktop/pico-sdk/src/rp2_common/cmsis /Users/daniel.sierra/Desktop/pico-sdk/src/rp2040/hardware_regs /Users/daniel.sierra/Desktop/pico-sdk/src/rp2_common/cmsis /Users/daniel.sierra/Desktop/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " /Users/daniel.sierra/Desktop/pico-sdk/src/rp2_common/cmsis /Users/daniel.sierra/Desktop/pico-sdk/src/rp2040/hardware_regs /Users/daniel.sierra/Desktop/pico-sdk/src/rp2_common/cmsis /Users/daniel.sierra/Desktop/pico-sdk/src/rp2040/hardware_regs /Users/daniel.sierra/Desktop/pico-sdk/src/rp2_common/cmsis /Users/daniel.sierra/Desktop/pico-sdk/src/rp2040/hardware_regs /Users/daniel.sierra/Desktop/pico-sdk/src/rp2_common/cmsis /Users/daniel.sierra/Desktop/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",

@@ -1,0 +1,13 @@
+1. Multithreading: The code supports multiple threads (`thread1_func` and `thread2_func`). Each thread has its own function and executes concurrently.
+
+2. Thread Priorities: Each thread is assigned a priority (`priority` field in `ThreadControlBlock`). The thread scheduler (`kernel_thread_scheduler`) selects the next thread to execute based on their priorities.
+
+3. Context Switching: The code performs context switching between threads using the `yield` function. It saves the state of the current thread and restores the state of the next thread to execute.
+
+4. Synchronization: The code uses a semaphore (`led_semaphore`) to synchronize access to the LED pin. Threads acquire the semaphore before accessing the LED pin and release it afterward, ensuring mutually exclusive access.
+
+5. Timer-Based Scheduling: The code uses a timer (`repeating_timer`) to generate periodic interrupts (`kernel_tick_handler`). The timer tick increments a tick counter, and the scheduler checks if a thread's remaining time reaches zero to determine if it should be scheduled.
+
+6. Console Output: The code uses printf statements to provide information about thread acquisition and release of the semaphore, context switches, and thread priorities. This helps in monitoring and debugging the system.
+
+While the code implements some basic functionality of an RTOS, it lacks preemptive scheduling, dynamic thread creation and termination, thread stack management, thread synchronization mechanisms beyond semaphores, error handling, and power management features. Adding these features would enhance the robustness and capabilities of the RTOS implementation.

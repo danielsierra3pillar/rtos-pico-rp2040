@@ -5,13 +5,6 @@
 
 #define LED_PIN PICO_DEFAULT_LED_PIN
 
-typedef enum
-{
-    THREAD_RUNNING,
-    THREAD_SUSPENDED,
-    THREAD_TERMINATED,
-} ThreadState;
-
 typedef struct
 {
     void (*thread_func)(void);
@@ -19,7 +12,8 @@ typedef struct
     uint32_t remaining_time;
     uint32_t thread_id;
     uint32_t waiting;
-    ThreadState state;
+    uint32_t stack_size;
+    uint32_t *stack_ptr;
 } ThreadControlBlock;
 
 #define NUM_THREADS 2
@@ -53,93 +47,65 @@ void semaphore_release(Semaphore *semaphore)
     semaphore->count++;
 }
 
-
 void thread1_func(void)
 {
+    // Store the initial stack pointer
+    uint32_t *initial_sp = thread_blocks[current_thread].stack_ptr;
+
     while (1)
     {
-        if (thread_blocks[current_thread].state == THREAD_SUSPENDED)
+        // Check for stack overflow
+        if (thread_blocks[current_thread].stack_ptr < (thread_blocks[current_thread].stack_ptr - thread_blocks[current_thread].stack_size))
         {
-            printf("Thread ID %d is suspended.\n", thread_blocks[current_thread].thread_id);
-            sleep_ms(1000);
-            continue;
-        }
-        else if (thread_blocks[current_thread].state == THREAD_TERMINATED)
-        {
-            printf("Thread ID %d is terminated.\n", thread_blocks[current_thread].thread_id);
-            sleep_ms(1000);
-            return;
+            printf("Thread ID %d encountered a stack overflow!\n", thread_blocks[current_thread].thread_id);
+            // Handle the stack overflow situation (e.g., reset the system or terminate the thread)
+            break;
         }
 
         semaphore_acquire(&led_semaphore);
-        printf("Thread ID %d acquired the semaphore. State: ", thread_blocks[current_thread].thread_id);
-
-        switch (thread_blocks[current_thread].state)
-        {
-            case THREAD_RUNNING:
-                printf("Running\n");
-                break;
-            case THREAD_SUSPENDED:
-                printf("Suspended\n");
-                break;
-            case THREAD_TERMINATED:
-                printf("Terminated\n");
-                break;
-        }
-
+        printf("Thread ID %d acquired the semaphore.\n", thread_blocks[current_thread].thread_id);
         gpio_put(LED_PIN, 1);
         sleep_ms(500);
         gpio_put(LED_PIN, 0);
         sleep_ms(500);
         semaphore_release(&led_semaphore);
-        printf("Thread ID %d released the semaphore. State:", thread_blocks[current_thread].thread_id);
+        printf("Thread ID %d released the semaphore.\n", thread_blocks[current_thread].thread_id);
         yield(); // Context switch to the next thread
     }
+
+    // Restore the initial stack pointer
+    thread_blocks[current_thread].stack_ptr = initial_sp;
 }
 
 void thread2_func(void)
 {
+    // Store the initial stack pointer
+    uint32_t *initial_sp = thread_blocks[current_thread].stack_ptr;
+
     while (1)
     {
-        if (thread_blocks[current_thread].state == THREAD_SUSPENDED)
+        // Check for stack overflow
+        if (thread_blocks[current_thread].stack_ptr < (thread_blocks[current_thread].stack_ptr - thread_blocks[current_thread].stack_size))
         {
-            printf("Thread ID %d is suspended.\n", thread_blocks[current_thread].thread_id);
-            sleep_ms(1000);
-            continue;
-        }
-        else if (thread_blocks[current_thread].state == THREAD_TERMINATED)
-        {
-            printf("Thread ID %d is terminated.\n", thread_blocks[current_thread].thread_id);
-            sleep_ms(1000);
-            return;
+            printf("Thread ID %d encountered a stack overflow!\n", thread_blocks[current_thread].thread_id);
+            // Handle the stack overflow situation (e.g., reset the system or terminate the thread)
+            break;
         }
 
         semaphore_acquire(&led_semaphore);
-        printf("Thread ID %d acquired the semaphore. State: ", thread_blocks[current_thread].thread_id);
-
-        switch (thread_blocks[current_thread].state)
-        {
-            case THREAD_RUNNING:
-                printf("Running\n");
-                break;
-            case THREAD_SUSPENDED:
-                printf("Suspended\n");
-                break;
-            case THREAD_TERMINATED:
-                printf("Terminated\n");
-                break;
-        }
-
+        printf("Thread ID %d acquired the semaphore.\n", thread_blocks[current_thread].thread_id);
         gpio_put(LED_PIN, 1);
         sleep_ms(200);
         gpio_put(LED_PIN, 0);
         sleep_ms(800);
         semaphore_release(&led_semaphore);
-        printf("Thread ID %d released the semaphore. State:", thread_blocks[current_thread].thread_id);
+        printf("Thread ID %d released the semaphore.\n", thread_blocks[current_thread].thread_id);
         yield(); // Context switch to the next thread
     }
-}
 
+    // Restore the initial stack pointer
+    thread_blocks[current_thread].stack_ptr = initial_sp;
+}
 
 void kernel_tick_handler(struct repeating_timer *t)
 {
@@ -180,13 +146,6 @@ void kernel_thread_scheduler()
         thread_blocks[current_thread].thread_func();
         thread_blocks[current_thread].remaining_time = thread_blocks[current_thread].priority;
     }
-    else
-    {
-        // All threads are suspended or terminated
-        printf("No active threads. Exiting.\n");
-        sleep_ms(1000);
-        exit(0);
-    }
 }
 
 void yield()
@@ -198,21 +157,7 @@ void yield()
     thread_blocks[current_thread].remaining_time = thread_blocks[current_thread].priority;
 }
 
-void terminate_thread(uint32_t thread_id)
-{
-    thread_blocks[thread_id].state = THREAD_TERMINATED;
-}
-
-void resume_thread(uint32_t thread_id)
-{
-    thread_blocks[thread_id].state = THREAD_RUNNING;
-}
-
-void recover_thread(uint32_t thread_id)
-{
-    thread_blocks[thread_id].remaining_time = thread_blocks[thread_id].priority;
-    thread_blocks[thread_id].state = THREAD_RUNNING;
-}
+#define STACK_SIZE 1024 // Adjust the stack size as needed
 
 int main()
 {
@@ -222,19 +167,25 @@ int main()
 
     semaphore_init(&led_semaphore, 1);
 
+    // Allocate stacks for each thread
+    uint32_t thread1_stack[STACK_SIZE / sizeof(uint32_t)];
+    uint32_t thread2_stack[STACK_SIZE / sizeof(uint32_t)];
+
     thread_blocks[0].thread_func = thread1_func;
     thread_blocks[0].priority = 1000;
     thread_blocks[0].remaining_time = 0;
-    thread_blocks[0].thread_id = 0;
+    thread_blocks[0].thread_id = 1;
     thread_blocks[0].waiting = 0;
-    thread_blocks[0].state = THREAD_RUNNING;
+    thread_blocks[0].stack_size = STACK_SIZE;
+    thread_blocks[0].stack_ptr = thread1_stack + STACK_SIZE / sizeof(uint32_t); // Set the stack pointer to the top of the stack
 
     thread_blocks[1].thread_func = thread2_func;
     thread_blocks[1].priority = 2000;
     thread_blocks[1].remaining_time = 0;
-    thread_blocks[1].thread_id = 1;
+    thread_blocks[1].thread_id = 2;
     thread_blocks[1].waiting = 0;
-    thread_blocks[1].state = THREAD_RUNNING;
+    thread_blocks[1].stack_size = STACK_SIZE;
+    thread_blocks[1].stack_ptr = thread2_stack + STACK_SIZE / sizeof(uint32_t); // Set the stack pointer to the top of the stack
 
     current_thread = 0;
 
@@ -244,21 +195,7 @@ int main()
 
     while (1)
     {
-        printf("Thread ID %d | Priority %d | ", thread_blocks[current_thread].thread_id, thread_blocks[current_thread].priority);
-
-        switch (thread_blocks[current_thread].state)
-        {
-        case THREAD_RUNNING:
-            printf("Running\n");
-            break;
-        case THREAD_SUSPENDED:
-            printf("Suspended\n");
-            break;
-        case THREAD_TERMINATED:
-            printf("Terminated\n");
-            break;
-        }
-
+        printf("Thread ID %d | Priority %d\n", thread_blocks[current_thread].thread_id, thread_blocks[current_thread].priority);
         kernel_thread_scheduler();
     }
 

@@ -2,7 +2,6 @@
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 #include "hardware/timer.h"
-#include "pico/mutex.h"
 
 #define LED_PIN PICO_DEFAULT_LED_PIN
 
@@ -18,32 +17,37 @@ typedef struct {
 ThreadControlBlock thread_blocks[NUM_THREADS];
 volatile uint32_t current_thread;
 
-mutex_t led_mutex;
+typedef struct {
+    volatile uint32_t locked;
+} Mutex;
 
-void my_mutex_init(mutex_t *mutex) {
-    mutex_init(mutex);
+Mutex led_mutex;
+
+void mutex_init(Mutex* mutex) {
+    mutex->locked = 0;
 }
 
-void my_mutex_acquire(mutex_t *mutex) {
-    while (!try_mutex(mutex)) {
+void mutex_lock(Mutex* mutex) {
+    while (mutex->locked) {
         // Spin until the mutex becomes available
         printf("Thread ID %d is waiting for the mutex.\n", thread_blocks[current_thread].thread_id);
     }
+    mutex->locked = 1;
 }
 
-void my_mutex_release(mutex_t *mutex) {
-    unlock_mutex(mutex);
+void mutex_unlock(Mutex* mutex) {
+    mutex->locked = 0;
 }
 
 void thread1_func(void) {
     while (1) {
-        my_mutex_acquire(&led_mutex);
+        mutex_lock(&led_mutex);
         printf("Thread ID %d acquired the mutex.\n", thread_blocks[current_thread].thread_id);
         gpio_put(LED_PIN, 1);
         sleep_ms(500);
         gpio_put(LED_PIN, 0);
         sleep_ms(500);
-        my_mutex_release(&led_mutex);
+        mutex_unlock(&led_mutex);
         printf("Thread ID %d released the mutex.\n", thread_blocks[current_thread].thread_id);
         yield(); // Context switch to the next thread
     }
@@ -51,13 +55,13 @@ void thread1_func(void) {
 
 void thread2_func(void) {
     while (1) {
-        my_mutex_acquire(&led_mutex);
+        mutex_lock(&led_mutex);
         printf("Thread ID %d acquired the mutex.\n", thread_blocks[current_thread].thread_id);
         gpio_put(LED_PIN, 1);
         sleep_ms(200);
         gpio_put(LED_PIN, 0);
         sleep_ms(800);
-        my_mutex_release(&led_mutex);
+        mutex_unlock(&led_mutex);
         printf("Thread ID %d released the mutex.\n", thread_blocks[current_thread].thread_id);
         yield(); // Context switch to the next thread
     }
@@ -109,7 +113,7 @@ int main() {
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
 
-    my_mutex_init(&led_mutex);
+    mutex_init(&led_mutex);
 
     thread_blocks[0].thread_func = thread1_func;
     thread_blocks[0].priority = 1000;
