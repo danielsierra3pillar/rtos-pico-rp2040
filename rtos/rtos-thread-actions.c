@@ -5,170 +5,6 @@
 
 #define LED_PIN PICO_DEFAULT_LED_PIN
 
-typedef struct
-{
-    void (*thread_func)(void);
-    uint32_t priority;
-    uint32_t remaining_time;
-    uint32_t thread_id;
-    uint32_t waiting;
-    uint32_t terminated;
-} ThreadControlBlock;
-
-#define NUM_THREADS 2
-ThreadControlBlock thread_blocks[NUM_THREADS];
-volatile uint32_t current_thread;
-
-typedef struct
-{
-    uint32_t count;
-} Semaphore;
-
-Semaphore led_semaphore;
-
-void semaphore_init(Semaphore *semaphore, uint32_t initial_count)
-{
-    semaphore->count = initial_count;
-}
-
-void semaphore_acquire(Semaphore *semaphore)
-{
-    while (semaphore->count == 0)
-    {
-        // Spin until the semaphore becomes available
-        printf("Thread ID %d is waiting for the semaphore.\n", thread_blocks[current_thread].thread_id);
-    }
-    semaphore->count--;
-}
-
-void semaphore_release(Semaphore *semaphore)
-{
-    semaphore->count++;
-}
-
-void thread1_func(void)
-{
-    while (!thread_blocks[current_thread].terminated)
-    {
-        semaphore_acquire(&led_semaphore);
-        printf("Thread ID %d acquired the semaphore.\n", thread_blocks[current_thread].thread_id);
-        gpio_put(LED_PIN, 1);
-        sleep_ms(500);
-        gpio_put(LED_PIN, 0);
-        sleep_ms(500);
-        semaphore_release(&led_semaphore);
-        printf("Thread ID %d released the semaphore.\n", thread_blocks[current_thread].thread_id);
-        yield(); // Context switch to the next thread
-    }
-    
-    // Thread termination cleanup
-    printf("Thread ID %d terminated.\n", thread_blocks[current_thread].thread_id);
-    thread_blocks[current_thread].terminated = 0;
-}
-
-void thread2_func(void)
-{
-    while (!thread_blocks[current_thread].terminated)
-    {
-        semaphore_acquire(&led_semaphore);
-        printf("Thread ID %d acquired the semaphore.\n", thread_blocks[current_thread].thread_id);
-        gpio_put(LED_PIN, 1);
-        sleep_ms(200);
-        gpio_put(LED_PIN, 0);
-        sleep_ms(800);
-        semaphore_release(&led_semaphore);
-        printf("Thread ID %d released the semaphore.\n", thread_blocks[current_thread].thread_id);
-        yield(); // Context switch to the next thread
-    }
-    
-    // Thread termination cleanup
-    printf("Thread ID %d terminated.\n", thread_blocks[current_thread].thread_id);
-    thread_blocks[current_thread].terminated = 0;
-}
-
-void kernel_tick_handler(struct repeating_timer *t)
-{
-    static uint32_t tick = 0;
-    tick++;
-
-    for (int i = 0; i < NUM_THREADS; i++)
-    {
-        if (i != current_thread && !thread_blocks[i].terminated)
-        {
-            if (tick % thread_blocks[i].priority == 0)
-                thread_blocks[i].remaining_time = 0;
-        }
-    }
-}
-
-void kernel_thread_scheduler()
-{
-    uint32_t highest_priority = 0;
-    uint32_t next_thread = current_thread;
-
-    for (int i = 0; i < NUM_THREADS; i++)
-    {
-        if (i != current_thread && !thread_blocks[i].terminated)
-        {
-            if (thread_blocks[i].priority > highest_priority && thread_blocks[i].remaining_time == 0)
-            {
-                highest_priority = thread_blocks[i].priority;
-                next_thread = i;
-            }
-        }
-    }
-
-    if (next_thread != current_thread)
-    {
-        current_thread = next_thread;
-        printf("Context Switch: Thread ID %d | Priority %d\n", thread_blocks[current_thread].thread_id, thread_blocks[current_thread].priority);
-        thread_blocks[current_thread].thread_func();
-        thread_blocks[current_thread].remaining_time = thread_blocks[current_thread].priority;
-    }
-}
-
-void yield()
-{
-    uint32_t next_thread = (current_thread + 1) % NUM_THREADS;
-    current_thread = next_thread;
-
-    printf("Context Switch: Thread ID %d | Priority %d\n", thread_blocks[current_thread].thread_id, thread_blocks[current_thread].priority);
-    thread_blocks[current_thread].remaining_time = thread_blocks[current_thread].priority;
-}
-
-void terminate_thread(uint32_t thread_id)
-{
-    thread_blocks[thread_id].terminated = 1;
-}
-
-void resume_thread(uint32_t thread_id)
-{
-    thread_blocks[thread_id].terminated = 0;
-}
-
-void recover_thread(uint32_t thread_id)
-{
-    thread_blocks[thread_id].remaining_time = thread_blocks[thread_id].priority;
-}
-
-int main()
-{
-    stdio_init_all();
-    gpio_init(LED_PIN);
-    gpio_set_dir(LED_PIN, GPIO_OUT);
-
-    semaphore_init(&led_semaphore, 1);
-
-    thread_blocks[0].thread_func = thread1_func;
-    thread_blocks[0].priority = 1000;
-    thread_blocks[0].remaining_time = 0;
-    thread_blocks[0].thread_id = 0;#include <stdio.h>
-#include "pico/stdlib.h"
-#include "hardware/gpio.h"
-#include "hardware/timer.h"
-
-#define LED_PIN PICO_DEFAULT_LED_PIN
-
 typedef enum
 {
     THREAD_RUNNING,
@@ -329,7 +165,7 @@ void kernel_thread_scheduler()
     {
         if (i != current_thread)
         {
-            if (thread_blocks[i].priority > highest_priority && thread_blocks[i].remaining_time == 0)
+            if (thread_blocks[i].state == THREAD_RUNNING && thread_blocks[i].priority > highest_priority && thread_blocks[i].remaining_time == 0)
             {
                 highest_priority = thread_blocks[i].priority;
                 next_thread = i;
@@ -352,6 +188,7 @@ void kernel_thread_scheduler()
         exit(0);
     }
 }
+
 
 void yield()
 {
@@ -423,31 +260,6 @@ int main()
             break;
         }
 
-        kernel_thread_scheduler();
-    }
-
-    return 0;
-}
-
-    thread_blocks[0].waiting = 0;
-    thread_blocks[0].terminated = 0;
-
-    thread_blocks[1].thread_func = thread2_func;
-    thread_blocks[1].priority = 2000;
-    thread_blocks[1].remaining_time = 0;
-    thread_blocks[1].thread_id = 1;
-    thread_blocks[1].waiting = 0;
-    thread_blocks[1].terminated = 0;
-
-    current_thread = 0;
-
-    uint32_t interval_us = 1000; // 1ms
-    struct repeating_timer timer;
-    add_repeating_timer_us(-interval_us, kernel_tick_handler, NULL, &timer);
-
-    while (1)
-    {
-        printf("Thread ID %d | Priority %d\n", thread_blocks[current_thread].thread_id, thread_blocks[current_thread].priority);
         kernel_thread_scheduler();
     }
 

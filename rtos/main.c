@@ -44,15 +44,16 @@ void semaphore_acquire(Semaphore *semaphore)
     {
         // Spin until the semaphore becomes available
         printf("Thread ID %d is waiting for the semaphore.\n", thread_blocks[current_thread].thread_id);
+        yield(); // Release the CPU to allow other threads to execute
     }
     semaphore->count--;
 }
 
 void semaphore_release(Semaphore *semaphore)
 {
-    semaphore->count++;
+    if (semaphore->count < UINT32_MAX) // Check for count overflow
+        semaphore->count++;
 }
-
 
 void thread1_func(void)
 {
@@ -93,7 +94,22 @@ void thread1_func(void)
         sleep_ms(500);
         semaphore_release(&led_semaphore);
         printf("Thread ID %d released the semaphore. State:", thread_blocks[current_thread].thread_id);
+
+        switch (thread_blocks[current_thread].state)
+        {
+            case THREAD_RUNNING:
+                printf("Running\n");
+                break;
+            case THREAD_SUSPENDED:
+                printf("Suspended\n");
+                break;
+            case THREAD_TERMINATED:
+                printf("Terminated\n");
+                break;
+        }
+
         yield(); // Context switch to the next thread
+        
     }
 }
 
@@ -135,7 +151,21 @@ void thread2_func(void)
         gpio_put(LED_PIN, 0);
         sleep_ms(800);
         semaphore_release(&led_semaphore);
-        printf("Thread ID %d released the semaphore. State:", thread_blocks[current_thread].thread_id);
+        printf("Thread ID %d released the semaphore. State: ", thread_blocks[current_thread].thread_id);
+
+        switch (thread_blocks[current_thread].state)
+        {
+            case THREAD_RUNNING:
+                printf("Running\n");
+                break;
+            case THREAD_SUSPENDED:
+                printf("Suspended\n");
+                break;
+            case THREAD_TERMINATED:
+                printf("Terminated\n");
+                break;
+        }
+
         yield(); // Context switch to the next thread
     }
 }
@@ -198,22 +228,6 @@ void yield()
     thread_blocks[current_thread].remaining_time = thread_blocks[current_thread].priority;
 }
 
-void terminate_thread(uint32_t thread_id)
-{
-    thread_blocks[thread_id].state = THREAD_TERMINATED;
-}
-
-void resume_thread(uint32_t thread_id)
-{
-    thread_blocks[thread_id].state = THREAD_RUNNING;
-}
-
-void recover_thread(uint32_t thread_id)
-{
-    thread_blocks[thread_id].remaining_time = thread_blocks[thread_id].priority;
-    thread_blocks[thread_id].state = THREAD_RUNNING;
-}
-
 int main()
 {
     stdio_init_all();
@@ -260,6 +274,7 @@ int main()
         }
 
         kernel_thread_scheduler();
+        sleep_ms(1000); // Introduce a delay of 1 second between iterations
     }
 
     return 0;
