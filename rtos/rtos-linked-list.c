@@ -288,3 +288,33 @@ int main() {
 
     return 0;
 }
+
+
+// Thread ID 0 acquired the semaphore. State: Running
+// Thread ID 0 released the semaphore. State: Running
+// Thread ID 0 acquired the semaphore. State: Running
+// Thread ID 0 released the semaphore. State: Running
+// Thread ID 0 acquired the semaphore. State: Running
+// Thread ID 0 released the semaphore. State: Running
+// Thread ID 0 acquired the semaphore. State: Running
+// Thread ID 0 released the semaphore. State: Running
+// Thread ID 0 acquired the semaphore. State: Running
+// Thread ID 0 released the semaphore. State: Running
+// Context Switch: Thread ID 1 | Priority 2
+// Thread ID 1 acquired the semaphore. State: Running
+// Thread ID 1 released the semaphore. State: Running
+// Thread ID 1 acquired the semaphore. State: Running
+// Thread ID 1 released the semaphore. State: Running
+// Thread ID 1 acquired the semaphore. State: Running
+// Thread ID 1 released the semaphore. State: Running
+// Thread ID 1 acquired the semaphore. State: Running
+// Thread ID 1 released the semaphore. State: Running
+// Context Switch: Thread ID 0 | Priority 1
+// Thread ID 0 acquired the semaphore. State: Running
+// Thread ID 0 released the semaphore. State: Running
+// Thread ID 0 acquired the semaphore. State: Running
+// Thread ID 0 released the semaphore. State: Running
+// Thread ID 0 acquired the semaphore. State: Running
+// Thread ID 0 released the semaphore. State: Running
+// Thread ID 0 acquired the semaphore. State: Running
+// Thread ID 0 released the semaphore. State: Running
