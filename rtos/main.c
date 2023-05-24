@@ -66,47 +66,51 @@ void thread1_func(void)
             printf("Thread ID %d is suspended.\n", thread_blocks[current_thread].thread_id);
             sleep_ms(1000);
         }
-        else if (thread_blocks[current_thread].state == THREAD_TERMINATED)
+
+        if (thread_blocks[current_thread].state == THREAD_TERMINATED)
         {
             printf("Thread ID %d is terminated.\n", thread_blocks[current_thread].thread_id);
             sleep_ms(1000);
-            return;
+            continue;
         }
 
-        semaphore_acquire(&led_semaphore);
-        printf("Thread ID %d acquired the semaphore. State: ", thread_blocks[current_thread].thread_id);
-
-        switch (thread_blocks[current_thread].state)
+        if (thread_blocks[current_thread].state == THREAD_RUNNING)
         {
-        case THREAD_RUNNING:
-            printf("Running\n");
-            break;
-        case THREAD_SUSPENDED:
-            printf("Suspended\n");
-            break;
-        case THREAD_TERMINATED:
-            printf("Terminated\n");
-            break;
-        }
+            semaphore_acquire(&led_semaphore);
+            printf("Thread ID %d acquired the semaphore. State: ", thread_blocks[current_thread].thread_id);
 
-        gpio_put(LED_PIN, 1);
-        sleep_ms(500);
-        gpio_put(LED_PIN, 0);
-        sleep_ms(500);
-        semaphore_release(&led_semaphore);
-        printf("Thread ID %d released the semaphore. State: ", thread_blocks[current_thread].thread_id);
+            switch (thread_blocks[current_thread].state)
+            {
+            case THREAD_RUNNING:
+                printf("Running\n");
+                break;
+            case THREAD_SUSPENDED:
+                printf("Suspended\n");
+                break;
+            case THREAD_TERMINATED:
+                printf("Terminated\n");
+                break;
+            }
 
-        switch (thread_blocks[current_thread].state)
-        {
-        case THREAD_RUNNING:
-            printf("Running\n");
-            break;
-        case THREAD_SUSPENDED:
-            printf("Suspended\n");
-            break;
-        case THREAD_TERMINATED:
-            printf("Terminated\n");
-            break;
+            gpio_put(LED_PIN, 1);
+            sleep_ms(3000);
+            gpio_put(LED_PIN, 0);
+            sleep_ms(1000);
+            semaphore_release(&led_semaphore);
+            printf("Thread ID %d released the semaphore. State: ", thread_blocks[current_thread].thread_id);
+
+            switch (thread_blocks[current_thread].state)
+            {
+            case THREAD_RUNNING:
+                printf("Running\n");
+                break;
+            case THREAD_SUSPENDED:
+                printf("Suspended\n");
+                break;
+            case THREAD_TERMINATED:
+                printf("Terminated\n");
+                break;
+            }
         }
 
         yield(); // Context switch to the next thread
@@ -123,49 +127,53 @@ void thread2_func(void)
             sleep_ms(1000);
             continue;
         }
-        else if (thread_blocks[current_thread].state == THREAD_TERMINATED)
+
+        if (thread_blocks[current_thread].state == THREAD_TERMINATED)
         {
             printf("Thread ID %d is terminated.\n", thread_blocks[current_thread].thread_id);
             sleep_ms(1000);
-            return;
+            continue;
         }
 
-        semaphore_acquire(&led_semaphore);
-        printf("Thread ID %d acquired the semaphore. State: ", thread_blocks[current_thread].thread_id);
-
-        switch (thread_blocks[current_thread].state)
+        if (thread_blocks[current_thread].state == THREAD_RUNNING)
         {
-        case THREAD_RUNNING:
-            printf("Running\n");
-            break;
-        case THREAD_SUSPENDED:
-            printf("Suspended\n");
-            break;
-        case THREAD_TERMINATED:
-            printf("Terminated\n");
-            break;
+
+            semaphore_acquire(&led_semaphore);
+            printf("Thread ID %d acquired the semaphore. State: ", thread_blocks[current_thread].thread_id);
+
+            switch (thread_blocks[current_thread].state)
+            {
+            case THREAD_RUNNING:
+                printf("Running\n");
+                break;
+            case THREAD_SUSPENDED:
+                printf("Suspended\n");
+                break;
+            case THREAD_TERMINATED:
+                printf("Terminated\n");
+                break;
+            }
+
+            gpio_put(LED_PIN, 1);
+            sleep_ms(10000);
+            gpio_put(LED_PIN, 0);
+            sleep_ms(1000);
+            semaphore_release(&led_semaphore);
+            printf("Thread ID %d released the semaphore. State: ", thread_blocks[current_thread].thread_id);
+
+            switch (thread_blocks[current_thread].state)
+            {
+            case THREAD_RUNNING:
+                printf("Running\n");
+                break;
+            case THREAD_SUSPENDED:
+                printf("Suspended\n");
+                break;
+            case THREAD_TERMINATED:
+                printf("Terminated\n");
+                break;
+            }
         }
-
-        gpio_put(LED_PIN, 1);
-        sleep_ms(200);
-        gpio_put(LED_PIN, 0);
-        sleep_ms(800);
-        semaphore_release(&led_semaphore);
-        printf("Thread ID %d released the semaphore. State: ", thread_blocks[current_thread].thread_id);
-
-        switch (thread_blocks[current_thread].state)
-        {
-        case THREAD_RUNNING:
-            printf("Running\n");
-            break;
-        case THREAD_SUSPENDED:
-            printf("Suspended\n");
-            break;
-        case THREAD_TERMINATED:
-            printf("Terminated\n");
-            break;
-        }
-
         yield(); // Context switch to the next thread
     }
 }
@@ -231,11 +239,11 @@ void terminate_thread(uint32_t thread_id)
 
 void yield()
 {
-    printf("execution_time -----> %d\n", execution_time);
+    printf("execution_time -----> %d\n", execution_time / 1000);
     uint32_t next_thread = (current_thread + 1) % NUM_THREADS;
     current_thread = next_thread;
 
-    printf("Context Switch YIELD : Thread ID %d | Priority %d\n", thread_blocks[current_thread].thread_id, thread_blocks[current_thread].priority);
+    printf("Context Switch: Thread ID %d | Priority %d\n", thread_blocks[current_thread].thread_id, thread_blocks[current_thread].priority);
     thread_blocks[current_thread].remaining_time = thread_blocks[current_thread].priority;
 
     if (execution_time == 30 * 1000)
@@ -253,6 +261,25 @@ void yield()
     execution_time += 1000;
 }
 
+void init_threads()
+{
+    // thread 1
+    thread_blocks[0].thread_func = thread1_func;
+    thread_blocks[0].priority = 1000;
+    thread_blocks[0].remaining_time = 0;
+    thread_blocks[0].thread_id = 0;
+    thread_blocks[0].waiting = 0;
+    thread_blocks[0].state = THREAD_RUNNING;
+
+    // thread 2
+    thread_blocks[1].thread_func = thread2_func;
+    thread_blocks[1].priority = 2000;
+    thread_blocks[1].remaining_time = 0;
+    thread_blocks[1].thread_id = 1;
+    thread_blocks[1].waiting = 0;
+    thread_blocks[1].state = THREAD_RUNNING;
+}
+
 int main()
 {
     stdio_init_all();
@@ -261,21 +288,9 @@ int main()
 
     semaphore_init(&led_semaphore, 1);
 
-    thread_blocks[0].thread_func = thread1_func;
-    thread_blocks[0].priority = 1000;
-    thread_blocks[0].remaining_time = 0;
-    thread_blocks[0].thread_id = 0;
-    thread_blocks[0].waiting = 0;
-    thread_blocks[0].state = THREAD_RUNNING;
-
-    thread_blocks[1].thread_func = thread2_func;
-    thread_blocks[1].priority = 2000;
-    thread_blocks[1].remaining_time = 0;
-    thread_blocks[1].thread_id = 1;
-    thread_blocks[1].waiting = 0;
-    thread_blocks[1].state = THREAD_RUNNING;
-
     current_thread = 0;
+
+    init_threads();
 
     uint32_t interval_us = 1000; // 1ms
     struct repeating_timer timer;
