@@ -19,7 +19,6 @@ typedef struct
     uint32_t priority;
     uint32_t remaining_time;
     uint32_t thread_id;
-    uint32_t waiting;
     ThreadState state;
 } ThreadControlBlock;
 
@@ -65,6 +64,7 @@ void thread1_func(void)
         {
             printf("Thread ID %d is suspended.\n", thread_blocks[current_thread].thread_id);
             sleep_ms(1000);
+            continue;
         }
         else if (thread_blocks[current_thread].state == THREAD_TERMINATED)
         {
@@ -187,22 +187,26 @@ void kernel_tick_handler(struct repeating_timer *t)
 
 void kernel_thread_scheduler()
 {
-    // Check if the current thread is suspended
-    if (thread_blocks[current_thread].state == THREAD_SUSPENDED)
+    // Find the next available thread
+    uint32_t starting_thread = current_thread; // Store the starting thread
+    uint32_t next_thread = (current_thread + 1) % NUM_THREADS;
+
+    while (thread_blocks[next_thread].state != THREAD_RUNNING)
     {
-        // Find the next available thread
-        uint32_t next_thread = (current_thread + 1) % NUM_THREADS;
-        while (thread_blocks[next_thread].state != THREAD_RUNNING)
+        next_thread = (next_thread + 1) % NUM_THREADS;
+
+        // Check if all threads are suspended or terminated
+        if (next_thread == starting_thread)
         {
-            next_thread = (next_thread + 1) % NUM_THREADS;
-            // Check if all threads are suspended or terminated
-            if (next_thread == current_thread)
-            {
-                printf("No active threads. Exiting.\n");
-                sleep_ms(1000);
-                exit(0);
-            }
+            printf("No active threads. Exiting.\n");
+            sleep_ms(1000);
+            exit(0);
         }
+    }
+
+    // Update the current thread only if it's not suspended
+    if (thread_blocks[current_thread].state != THREAD_SUSPENDED)
+    {
         current_thread = next_thread;
     }
 
@@ -235,7 +239,7 @@ void yield()
     uint32_t next_thread = (current_thread + 1) % NUM_THREADS;
     current_thread = next_thread;
 
-    printf("Context Switch YIELD : Thread ID %d | Priority %d\n", thread_blocks[current_thread].thread_id, thread_blocks[current_thread].priority);
+    printf("Context Switch YIELD: Thread ID %d | Priority %d\n", thread_blocks[current_thread].thread_id, thread_blocks[current_thread].priority);
     thread_blocks[current_thread].remaining_time = thread_blocks[current_thread].priority;
 
     if (execution_time == 30 * 1000)
@@ -250,7 +254,25 @@ void yield()
     {
         terminate_thread(0);
     }
-    execution_time += 1000;
+
+    execution_time += thread_blocks[current_thread].priority;
+}
+
+void init_threads()
+{
+    // Set up thread 1
+    thread_blocks[0].thread_func = thread1_func;
+    thread_blocks[0].priority = 10;
+    thread_blocks[0].remaining_time = thread_blocks[0].priority;
+    thread_blocks[0].thread_id = 0;
+    thread_blocks[0].state = THREAD_RUNNING;
+
+    // Set up thread 2
+    thread_blocks[1].thread_func = thread2_func;
+    thread_blocks[1].priority = 20;
+    thread_blocks[1].remaining_time = thread_blocks[1].priority;
+    thread_blocks[1].thread_id = 1;
+    thread_blocks[1].state = THREAD_RUNNING;
 }
 
 int main()
@@ -261,31 +283,14 @@ int main()
 
     semaphore_init(&led_semaphore, 1);
 
-    thread_blocks[0].thread_func = thread1_func;
-    thread_blocks[0].priority = 1000;
-    thread_blocks[0].remaining_time = 0;
-    thread_blocks[0].thread_id = 0;
-    thread_blocks[0].waiting = 0;
-    thread_blocks[0].state = THREAD_RUNNING;
+    init_threads();
 
-    thread_blocks[1].thread_func = thread2_func;
-    thread_blocks[1].priority = 2000;
-    thread_blocks[1].remaining_time = 0;
-    thread_blocks[1].thread_id = 1;
-    thread_blocks[1].waiting = 0;
-    thread_blocks[1].state = THREAD_RUNNING;
-
-    current_thread = 0;
-
-    uint32_t interval_us = 1000; // 1ms
-    struct repeating_timer timer;
-    add_repeating_timer_us(-interval_us, kernel_tick_handler, NULL, &timer);
+    struct repeating_timer kernel_timer;
+    add_repeating_timer_us(-1, kernel_tick_handler, NULL, &kernel_timer);
 
     while (1)
     {
-        printf("Thread ID %d | Priority %d | ", thread_blocks[current_thread].thread_id, thread_blocks[current_thread].priority);
         kernel_thread_scheduler();
-        sleep_ms(1000); // Introduce a delay of 1 second between iterations
     }
 
     return 0;
