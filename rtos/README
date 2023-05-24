@@ -1,13 +1,13 @@
-1. Multithreading: The code supports multiple threads (`thread1_func` and `thread2_func`). Each thread has its own function and executes concurrently.
+What aspects are we covering in this example of an RTOS
 
-2. Thread Priorities: Each thread is assigned a priority (`priority` field in `ThreadControlBlock`). The thread scheduler (`kernel_thread_scheduler`) selects the next thread to execute based on their priorities.
+1. Thread Management: The code defines a structure called ThreadControlBlock to store information about each thread, including the thread function, priority, remaining time, thread ID, waiting state, and state. The code initializes and manages two threads (thread1_func and thread2_func). The current_thread variable keeps track of the currently executing thread. The kernel_thread_scheduler function implements the thread scheduling algorithm based on thread priorities and states.
 
-3. Context Switching: The code performs context switching between threads using the `yield` function. It saves the state of the current thread and restores the state of the next thread to execute.
+2. Context Switching: The code includes a yield function that performs a context switch to the next thread. Context switching allows different threads to execute in a cooperative manner, ensuring fairness and giving each thread a chance to run.
 
-4. Synchronization: The code uses a semaphore (`led_semaphore`) to synchronize access to the LED pin. Threads acquire the semaphore before accessing the LED pin and release it afterward, ensuring mutually exclusive access.
+3. Semaphore Implementation: The code defines a Semaphore structure and provides functions (semaphore_init, semaphore_acquire, semaphore_release) to initialize, acquire, and release a semaphore. Semaphores are used to control access to shared resources, in this case, the LED. The code demonstrates the correct usage of semaphores by acquiring and releasing the semaphore before and after accessing the LED.
 
-5. Timer-Based Scheduling: The code uses a timer (`repeating_timer`) to generate periodic interrupts (`kernel_tick_handler`). The timer tick increments a tick counter, and the scheduler checks if a thread's remaining time reaches zero to determine if it should be scheduled.
+4. Timer Interrupt: The code sets up a timer interrupt (kernel_tick_handler) that triggers periodically. This interrupt is used for the RTOS kernel tick, which is responsible for managing the execution time of threads and resetting their remaining time. The interrupt handler iterates through the thread control blocks and updates the remaining time of each thread based on its priority.
 
-6. Console Output: The code uses printf statements to provide information about thread acquisition and release of the semaphore, context switches, and thread priorities. This helps in monitoring and debugging the system.
+5. Thread States: The code defines an enumeration ThreadState to represent the states of a thread (THREAD_RUNNING, THREAD_SUSPENDED, THREAD_TERMINATED). The thread functions (thread1_func and thread2_func) check the state of the current thread before executing their code. The code also prints the state of the thread before and after acquiring/releasing the semaphore, allowing observation and verification of the thread states.
 
-While the code implements some basic functionality of an RTOS, it lacks preemptive scheduling, dynamic thread creation and termination, thread stack management, thread synchronization mechanisms beyond semaphores, error handling, and power management features. Adding these features would enhance the robustness and capabilities of the RTOS implementation.
+6. Initialization and Termination: The init_threads function initializes the thread control blocks with the required information for each thread. The code handles the termination of threads by checking the thread state and either continuing to the next iteration or printing a termination message.
