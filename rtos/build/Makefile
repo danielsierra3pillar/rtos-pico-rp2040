@@ -233,222 +233,6 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.obj
-
-# target to build an object file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.i
-
-# target to preprocess a source file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.i
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.s
-
-# target to generate assembly for a file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.s
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.obj
-
-# target to build an object file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.i
-
-# target to preprocess a source file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.i
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.s
-
-# target to generate assembly for a file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.s
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.obj
-
-# target to build an object file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.i
-
-# target to preprocess a source file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.i
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.s
-
-# target to generate assembly for a file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.s
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.obj
-
-# target to build an object file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.i
-
-# target to preprocess a source file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.s
-
-# target to generate assembly for a file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.obj
-
-# target to build an object file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.i
-
-# target to preprocess a source file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.s
-
-# target to generate assembly for a file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.obj
-
-# target to build an object file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.i
-
-# target to preprocess a source file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.i
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.s
-
-# target to generate assembly for a file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.s
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.obj
-
-# target to build an object file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.i
-
-# target to preprocess a source file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.i
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.s
-
-# target to generate assembly for a file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.s
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.obj
-
-# target to build an object file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.i
-
-# target to preprocess a source file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.i
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.s
-
-# target to generate assembly for a file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.s
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.obj: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.obj
-
-# target to build an object file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.i: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.i
-
-# target to preprocess a source file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.i
-
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.s: Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.s
-
-# target to generate assembly for a file
-Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.s
-
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
@@ -1177,30 +961,6 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_divid
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
-Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj
-
-# target to build an object file
-Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-
-Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.i
-
-# target to preprocess a source file
-Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-
-Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.s
-
-# target to generate assembly for a file
-Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
 
@@ -1681,30 +1441,6 @@ Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/m
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
-Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj
-
-# target to build an object file
-Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-
-Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i
-
-# target to preprocess a source file
-Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
-
-Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s
-
-# target to generate assembly for a file
-Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rtos.dir/build.make CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
-.PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
-
 Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
 
@@ -2018,33 +1754,6 @@ help:
 	@echo "... tinyusb_pico_pio_usb_usb_tx_pio_h"
 	@echo "... bs2_default"
 	@echo "... rtos"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.obj"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.i"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.s"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.obj"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.i"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.s"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.obj"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.i"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.s"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.obj"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.i"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.s"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.obj"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.i"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.s"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.obj"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.i"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.s"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.obj"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.i"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.s"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.obj"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.i"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.s"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.obj"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.i"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.s"
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -2136,9 +1845,6 @@ help:
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.i"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.s"
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.i"
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_flash/flash.s"
@@ -2199,9 +1905,6 @@ help:
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i"
-	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s"
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.obj"
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.i"
 	@echo "... Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/platform.s"

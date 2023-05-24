@@ -245,18 +245,6 @@ DOXYGEN_DOT_EXECUTABLE:FILEPATH=DOXYGEN_DOT_EXECUTABLE-NOTFOUND
 //Doxygen documentation generation tool (https://www.doxygen.nl)
 DOXYGEN_EXECUTABLE:FILEPATH=DOXYGEN_EXECUTABLE-NOTFOUND
 
-//Path to the FreeRTOS_KERNEL
-FREERTOS_KERNEL_PATH:PATH=/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel
-
-//Value Computed by CMake
-FreeRTOS-Kernel_BINARY_DIR:STATIC=/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/FREERTOS_KERNEL
-
-//Value Computed by CMake
-FreeRTOS-Kernel_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-FreeRTOS-Kernel_SOURCE_DIR:STATIC=/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040
-
 //PICO target board (e.g. pico)
 PICO_BOARD:STRING=pico
 
@@ -456,7 +444,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=81
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=80
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

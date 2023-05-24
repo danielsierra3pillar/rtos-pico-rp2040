@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <stdint.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
-#include "hardware/timer.h"
+#include "hardware/irq.h"
 
 #define LED_PIN PICO_DEFAULT_LED_PIN
+#define BOOTSEL_BUTTON_PIN 15
 
 typedef enum
 {
@@ -18,13 +20,15 @@ typedef struct
     uint32_t priority;
     uint32_t remaining_time;
     uint32_t thread_id;
-    uint32_t waiting;
     ThreadState state;
 } ThreadControlBlock;
 
 #define NUM_THREADS 2
 ThreadControlBlock thread_blocks[NUM_THREADS];
 volatile uint32_t current_thread;
+
+volatile bool button_pressed = false;
+volatile bool button_handled = false;
 
 typedef struct
 {
@@ -223,16 +227,21 @@ void suspend_thread(uint32_t thread_id)
     printf("Thread ID %d suspended.\n", thread_id);
 }
 
-void resume_thread(uint32_t thread_id)
-{
-    thread_blocks[thread_id].state = THREAD_RUNNING;
-    printf("Thread ID %d resumed.\n", thread_id);
-}
-
 void terminate_thread(uint32_t thread_id)
 {
     thread_blocks[thread_id].state = THREAD_TERMINATED;
     printf("Thread ID %d terminated.\n", thread_id);
+}
+
+void bootsel_button_handler()
+{
+    // Check if the button is pressed
+    if (gpio_get(BOOTSEL_BUTTON_PIN) == 0)
+    {
+        button_pressed = true;
+    }
+    // Clear the interrupt flag
+    gpio_acknowledge_irq(BOOTSEL_BUTTON_PIN);
 }
 
 void yield()
@@ -249,48 +258,41 @@ int main()
     stdio_init_all();
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
+    gpio_init(BOOTSEL_BUTTON_PIN);
+    gpio_set_dir(BOOTSEL_BUTTON_PIN, GPIO_IN);
+    gpio_pull_up(BOOTSEL_BUTTON_PIN);
+    gpio_set_irq_enabled_with_callback(BOOTSEL_BUTTON_PIN, GPIO_IRQ_EDGE_FALL, true, &bootsel_button_handler);
+
+    for (int i = 0; i < NUM_THREADS; i++)
+    {
+        thread_blocks[i].thread_id = i;
+        thread_blocks[i].state = THREAD_RUNNING;
+        thread_blocks[i].remaining_time = 0;
+    }
 
     semaphore_init(&led_semaphore, 1);
 
-    thread_blocks[0].thread_func = thread1_func;
-    thread_blocks[0].priority = 1000;
-    thread_blocks[0].remaining_time = 0;
-    thread_blocks[0].thread_id = 0;
-    thread_blocks[0].waiting = 0;
-    thread_blocks[0].state = THREAD_RUNNING;
-
-    thread_blocks[1].thread_func = thread2_func;
-    thread_blocks[1].priority = 2000;
-    thread_blocks[1].remaining_time = 0;
-    thread_blocks[1].thread_id = 1;
-    thread_blocks[1].waiting = 0;
-    thread_blocks[1].state = THREAD_RUNNING;
+    thread_blocks[0].thread_func = &thread1_func;
+    thread_blocks[0].priority = 1;
+    thread_blocks[1].thread_func = &thread2_func;
+    thread_blocks[1].priority = 2;
 
     current_thread = 0;
+    thread_blocks[current_thread].remaining_time = thread_blocks[current_thread].priority;
 
-    uint32_t interval_us = 1000; // 1ms
-    struct repeating_timer timer;
-    add_repeating_timer_us(-interval_us, kernel_tick_handler, NULL, &timer);
+    struct repeating_timer kernel_timer;
+    add_repeating_timer_us(-1000, &kernel_tick_handler, NULL, &kernel_timer);
 
     while (1)
     {
-        printf("Thread ID %d | Priority %d | ", thread_blocks[current_thread].thread_id, thread_blocks[current_thread].priority);
-
-        switch (thread_blocks[current_thread].state)
+        if (button_pressed && !button_handled)
         {
-        case THREAD_RUNNING:
-            printf("Running\n");
-            break;
-        case THREAD_SUSPENDED:
-            printf("Suspended\n");
-            break;
-        case THREAD_TERMINATED:
-            printf("Terminated\n");
-            break;
+            suspend_thread(0);
+            terminate_thread(1);
+            button_handled = true;
         }
 
         kernel_thread_scheduler();
-        sleep_ms(1000); // Introduce a delay of 1 second between iterations
     }
 
     return 0;

@@ -9,7 +9,7 @@ if (NOT PICO_SDK_PATH)
 endif()
 
 # Pull in FreeRTOS
-include($ENV{FREERTOS_KERNEL_PATH}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
+# include($ENV{FREERTOS_KERNEL_PATH}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
 
 project(app C CXX ASM)
 set(CMAKE_C_STANDARD 11)
@@ -23,7 +23,7 @@ add_executable(rtos main.c)
 target_include_directories(rtos PRIVATE ${CMAKE_CURRENT_LIST_DIR})
  
 # pull in common dependencies
-target_link_libraries(rtos pico_stdlib FreeRTOS-Kernel FreeRTOS-Kernel-Heap4)
+target_link_libraries(rtos pico_stdlib)
 
 # create map/bin/hex/uf2 file etc.
 pico_add_extra_outputs(rtos)

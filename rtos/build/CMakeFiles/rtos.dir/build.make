@@ -1038,160 +1038,6 @@ CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj -MF CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj.d -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj -c /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c > CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.i
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.s
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj -MF CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj.d -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj -c /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c > CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.i
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.s
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj -MF CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj.d -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj -c /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c > CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.i
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.s
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj -MF CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj.d -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj -c /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c > CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.i
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.s
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj -MF CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj.d -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj -c /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c > CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.i
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.s
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj -MF CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj.d -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj -c /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c > CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.i
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.s
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj -MF CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj.d -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj -c /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c > CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.i
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.s
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj -MF CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj.d -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj -c /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c > CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.i
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.s
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c > CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj.d -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -c /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c > CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/rtos.dir/flags.make
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/rtos.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj -MF CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj.d -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj -c /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c > CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i
-
-CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c -o CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s
-
 # Object files for target rtos
 rtos_OBJECTS = \
 "CMakeFiles/rtos.dir/main.c.obj" \
@@ -1263,18 +1109,7 @@ rtos_OBJECTS = \
 "CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj" \
 "CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
 "CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
-"CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
-"CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj" \
-"CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj" \
-"CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj" \
-"CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj" \
-"CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj" \
-"CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj" \
-"CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj" \
-"CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj" \
-"CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj" \
-"CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj" \
-"CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj"
+"CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 
 # External object files for target rtos
 rtos_EXTERNAL_OBJECTS =
@@ -1349,21 +1184,10 @@ rtos.elf: CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk
 rtos.elf: CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 rtos.elf: CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 rtos.elf: CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-rtos.elf: CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/port.c.obj
-rtos.elf: CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/croutine.c.obj
-rtos.elf: CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/event_groups.c.obj
-rtos.elf: CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/list.c.obj
-rtos.elf: CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/queue.c.obj
-rtos.elf: CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/stream_buffer.c.obj
-rtos.elf: CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/tasks.c.obj
-rtos.elf: CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/timers.c.obj
-rtos.elf: CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-rtos.elf: CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-rtos.elf: CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj
 rtos.elf: CMakeFiles/rtos.dir/build.make
 rtos.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 rtos.elf: CMakeFiles/rtos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Linking CXX executable rtos.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking CXX executable rtos.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rtos.dir/link.txt --verbose=$(VERBOSE)
 	/usr/local/bin/arm-none-eabi-objcopy -Oihex /Users/daniel.sierra/Desktop/freertos-pico/rtos/build/rtos.elf rtos.hex
 	/usr/local/bin/arm-none-eabi-objcopy -Obinary /Users/daniel.sierra/Desktop/freertos-pico/rtos/build/rtos.elf rtos.bin

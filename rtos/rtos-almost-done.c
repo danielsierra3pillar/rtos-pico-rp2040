@@ -329,7 +329,7 @@ int main()
     while (1)
     {
         kernel_thread_scheduler();
-
+        sleep_ms(10000);
         // Example of usage
         suspend_thread(1);     // Suspend thread with ID 1
         sleep_ms(3000);

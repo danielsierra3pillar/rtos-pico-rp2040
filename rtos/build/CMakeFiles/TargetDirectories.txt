@@ -2,8 +2,6 @@
 /Users/daniel.sierra/Desktop/freertos-pico/rtos/build/CMakeFiles/ELF2UF2Build.dir
 /Users/daniel.sierra/Desktop/freertos-pico/rtos/build/CMakeFiles/edit_cache.dir
 /Users/daniel.sierra/Desktop/freertos-pico/rtos/build/CMakeFiles/rebuild_cache.dir
-/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/FREERTOS_KERNEL/CMakeFiles/edit_cache.dir
-/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/FREERTOS_KERNEL/CMakeFiles/rebuild_cache.dir
 /Users/daniel.sierra/Desktop/freertos-pico/rtos/build/pico-sdk/CMakeFiles/edit_cache.dir
 /Users/daniel.sierra/Desktop/freertos-pico/rtos/build/pico-sdk/CMakeFiles/rebuild_cache.dir
 /Users/daniel.sierra/Desktop/freertos-pico/rtos/build/pico-sdk/tools/CMakeFiles/edit_cache.dir

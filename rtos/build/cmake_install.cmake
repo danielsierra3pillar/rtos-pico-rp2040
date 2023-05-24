@@ -39,7 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/FREERTOS_KERNEL/cmake_install.cmake")
   include("/Users/daniel.sierra/Desktop/freertos-pico/rtos/build/pico-sdk/cmake_install.cmake")
 
 endif()

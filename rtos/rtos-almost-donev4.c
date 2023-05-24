@@ -185,6 +185,16 @@ void terminate_thread(uint32_t thread_id) {
     printf("Thread ID %d terminated.\n", thread_id);
 }
 
+
+void yield()
+{
+    uint32_t next_thread = (current_thread + 1) % NUM_THREADS;
+    current_thread = next_thread;
+
+    printf("Context Switch: Thread ID %d | Priority %d\n", thread_blocks[current_thread].thread_id, thread_blocks[current_thread].priority);
+    thread_blocks[current_thread].remaining_time = thread_blocks[current_thread].priority;
+}
+
 int main() {
     stdio_init_all();
     gpio_init(LED_PIN);

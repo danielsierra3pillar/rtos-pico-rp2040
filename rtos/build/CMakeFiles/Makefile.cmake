@@ -7,10 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/CMakeLists.txt"
-  "/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake"
-  "/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/library.cmake"
-  "/Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/pico_sdk_import.cmake"
   "/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/CMakeLists.txt"
   "/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/cmake/Platform/PICO.cmake"
   "/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/cmake/pico_pre_load_platform.cmake"
@@ -231,17 +227,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/3.26.3/CMakeSystem.cmake"
+  "CMakeFiles/3.26.3/CMakeCCompiler.cmake"
+  "CMakeFiles/3.26.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeASMCompiler.cmake"
+  "CMakeFiles/3.26.3/CMakeCCompiler.cmake"
+  "CMakeFiles/3.26.3/CMakeCXXCompiler.cmake"
   "elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
   "elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-source_dirinfo.txt"
   "elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "CMakeFiles/3.26.3/CMakeSystem.cmake"
-  "CMakeFiles/3.26.3/CMakeCCompiler.cmake"
-  "CMakeFiles/3.26.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.26.3/CMakeCCompiler.cmake"
-  "CMakeFiles/3.26.3/CMakeCXXCompiler.cmake"
-  "FREERTOS_KERNEL/CMakeFiles/CMakeDirectoryInformation.cmake"
   "generated/pico_base/pico/version.h"
   "generated/pico_base/pico/config_autogen.h"
   "pico-sdk/CMakeFiles/CMakeDirectoryInformation.cmake"

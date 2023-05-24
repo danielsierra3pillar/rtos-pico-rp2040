@@ -27,9 +27,6 @@ CMakeFiles/rtos.dir/Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/lib/tinyu
  /Users/daniel.sierra/Desktop/freertos-pico/rtos/build/generated/pico_base/pico/config_autogen.h \
  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/boards/include/boards/pico.h \
  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
- /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
- /Users/daniel.sierra/Desktop/freertos-pico/rtos/FreeRTOSConfig.h \
- /Users/daniel.sierra/Desktop/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
  /Users/daniel.sierra/Desktop/freertos-pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
