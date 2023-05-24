@@ -92,18 +92,10 @@ void thread1_func(void)
                 break;
             }
 
-            sleep_ms(5000);
             gpio_put(LED_PIN, 1);
             sleep_ms(300);
             gpio_put(LED_PIN, 0);
             sleep_ms(300);
-            gpio_put(LED_PIN, 1);
-            sleep_ms(300);
-            gpio_put(LED_PIN, 0);
-            sleep_ms(300);
-            gpio_put(LED_PIN, 1);
-            sleep_ms(300);
-            gpio_put(LED_PIN, 0);
 
             semaphore_release(&led_semaphore);
             printf("Thread ID %d released the semaphore. State: ", thread_blocks[current_thread].thread_id);
@@ -167,9 +159,6 @@ void thread2_func(void)
             sleep_ms(300);
             gpio_put(LED_PIN, 0);
             sleep_ms(300);
-            gpio_put(LED_PIN, 1);
-            sleep_ms(300);
-            gpio_put(LED_PIN, 0);
 
             semaphore_release(&led_semaphore);
             printf("Thread ID %d released the semaphore. State: ", thread_blocks[current_thread].thread_id);
