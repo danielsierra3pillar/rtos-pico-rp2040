@@ -1,9 +1,0 @@
-{
-  "cmake.sourceDirectory": "/Users/daniel.sierra/Desktop/freertos-pico/rtos",
-  "files.associations": {
-    "freertos.h": "c",
-    "irq.h": "c",
-    "timer.h": "c",
-    "stdlib.h": "c"
-  }
-}
