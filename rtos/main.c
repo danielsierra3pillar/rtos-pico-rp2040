@@ -5,8 +5,8 @@
 #include "hardware/timer.h"
 
 // Define the pin for the LED
-// This line defines the LED_PIN macro, which represents the GPIO pin number for the LED. 
-// In this case, PICO_DEFAULT_LED_PIN is used, which is a predefined constant representing 
+// This line defines the LED_PIN macro, which represents the GPIO pin number for the LED.
+// In this case, PICO_DEFAULT_LED_PIN is used, which is a predefined constant representing
 // the default LED pin on the Raspberry Pi Pico board.
 #define LED_PIN PICO_DEFAULT_LED_PIN
 
@@ -21,19 +21,19 @@ typedef enum
 // Structure to store thread information
 typedef struct
 {
-    void (*thread_func)(void);  // Function pointer to the thread function
-    uint32_t priority;          // Priority of the thread
-    uint32_t remaining_time;    // Remaining time for execution (used in thread scheduling)
-    uint32_t thread_id;         // ID of the thread
-    uint32_t waiting;           // Flag to indicate if the thread is waiting
-    ThreadState state;          // Current state of the thread
+    void (*thread_func)(void); // Function pointer to the thread function
+    uint32_t priority;         // Priority of the thread
+    uint32_t remaining_time;   // Remaining time for execution (used in thread scheduling)
+    uint32_t thread_id;        // ID of the thread
+    uint32_t waiting;          // Flag to indicate if the thread is waiting
+    ThreadState state;         // Current state of the thread
 } ThreadControlBlock;
 
 // Number of threads
 #define NUM_THREADS 2
 
 // Array of thread control blocks
-// These lines define the number of threads (NUM_THREADS) and create an 
+// These lines define the number of threads (NUM_THREADS) and create an
 // array of ThreadControlBlock structures to store information about each thread.
 ThreadControlBlock thread_blocks[NUM_THREADS];
 
@@ -222,7 +222,7 @@ void thread_2(void)
 }
 
 // Kernel tick handler for timer interrupt
-// Function is an interrupt handler that is called periodically by a timer interrupt. 
+// Function is an interrupt handler that is called periodically by a timer interrupt.
 // It serves as a kernel tick, which is a regular time interval at which the system performs certain tasks or checks.
 // This typically includes tasks such as updating system time, checking for time-sensitive events, or performing periodic operations.
 
@@ -239,20 +239,20 @@ void tick_handler(struct repeating_timer *t)
         if (i != current_thread)
         {
             // Check if it's time to reset the remaining time of the thread
-            // This condition ensures that the remaining time of the thread is reset only when 
+            // This condition ensures that the remaining time of the thread is reset only when
             // the current tick count is a multiple of the thread's priority.
-            // If the condition is true, it means that the thread's priority is met, 
+            // If the condition is true, it means that the thread's priority is met,
             // and it is time to reset the remaining execution time of the thread.
             if (tick % thread_blocks[i].priority == 0)
-            //  This sets the remaining execution time of the thread to 0, effectively resetting it. 
-            //  This indicates that the thread is eligible for execution and can be scheduled by the thread scheduler.
+                //  This sets the remaining execution time of the thread to 0, effectively resetting it.
+                //  This indicates that the thread is eligible for execution and can be scheduled by the thread scheduler.
                 thread_blocks[i].remaining_time = 0;
         }
     }
 }
 
 // Kernel thread scheduler
-// Function is responsible for selecting the next thread to run based on their states and priorities. 
+// Function is responsible for selecting the next thread to run based on their states and priorities.
 // It ensures that the most appropriate thread is chosen for execution.
 void scheduler()
 {
@@ -263,13 +263,13 @@ void scheduler()
         uint32_t next_thread = (current_thread + 1) % NUM_THREADS;
         while (thread_blocks[next_thread].state != THREAD_RUNNING)
         {
-            // The variable next_thread is initialized with the index of the next thread in a circular manner ((current_thread + 1) % NUM_THREADS). 
+            // The variable next_thread is initialized with the index of the next thread in a circular manner ((current_thread + 1) % NUM_THREADS).
             // This ensures that the scheduler cycles through all the thread control blocks.
             next_thread = (next_thread + 1) % NUM_THREADS;
 
             // Check if all threads are suspended or terminated
             if (next_thread == current_thread)
-            // If the loop completes without finding a running thread, it means that no active threads are available for execution. 
+            // If the loop completes without finding a running thread, it means that no active threads are available for execution.
             {
                 printf("No active threads. Exiting.\n");
                 sleep_ms(1000);
@@ -290,10 +290,10 @@ void scheduler()
         uint32_t min_priority = UINT32_MAX;
         while (thread_blocks[next_thread].state != THREAD_RUNNING || thread_blocks[next_thread].priority >= min_priority)
         {
-        // The loop continues until it finds a running thread with a priority lower than min_priority. 
-        // If a thread with a lower priority is found, min_priority is updated accordingly.
-        // If no running thread with a lower priority is found, or if there are no running threads at all, the program prints a message and exits.
-        // Once a suitable thread is found, current_thread is updated, and that thread becomes the next thread to execute.
+            // The loop continues until it finds a running thread with a priority lower than min_priority.
+            // If a thread with a lower priority is found, min_priority is updated accordingly.
+            // If no running thread with a lower priority is found, or if there are no running threads at all, the program prints a message and exits.
+            // Once a suitable thread is found, current_thread is updated, and that thread becomes the next thread to execute.
             if (thread_blocks[next_thread].state == THREAD_RUNNING && thread_blocks[next_thread].priority < min_priority)
                 min_priority = thread_blocks[next_thread].priority;
 
@@ -380,6 +380,7 @@ void init_threads()
 
 int main()
 {
+    stdio_init_all();
     // Initialize the LED pin
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
