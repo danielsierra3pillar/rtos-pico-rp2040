@@ -313,6 +313,30 @@ void scheduler()
     }
 }
 
+void yield()
+{
+    printf("execution_time -----> %d\n", execution_time / 1000);
+    uint32_t next_thread = (current_thread + 1) % NUM_THREADS;
+    current_thread = next_thread;
+
+    printf("Context Switch: Thread ID %d | Priority %d\n", thread_blocks[current_thread].thread_id, thread_blocks[current_thread].priority);
+    thread_blocks[current_thread].remaining_time = thread_blocks[current_thread].priority;
+
+    if (execution_time == 30 * 1000)
+    {
+        suspend_thread(0);
+    }
+    else if (execution_time == 60 * 1000)
+    {
+        resume_thread(0);
+    }
+    else if (execution_time == 90 * 1000)
+    {
+        terminate_thread(0);
+    }
+    execution_time += 1000;
+}
+
 // Function to initialize threads
 void init_threads()
 {
