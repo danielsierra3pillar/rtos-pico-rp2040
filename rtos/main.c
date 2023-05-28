@@ -313,9 +313,27 @@ void scheduler()
     }
 }
 
+void suspend_thread(uint32_t thread_id)
+{
+    thread_blocks[thread_id].state = THREAD_SUSPENDED;
+    printf("Thread ID %d suspended.\n", thread_id);
+}
+
+void resume_thread(uint32_t thread_id)
+{
+    thread_blocks[thread_id].state = THREAD_RUNNING;
+    printf("Thread ID %d resumed.\n", thread_id);
+}
+
+void terminate_thread(uint32_t thread_id)
+{
+    thread_blocks[thread_id].state = THREAD_TERMINATED;
+    printf("Thread ID %d terminated.\n", thread_id);
+}
+
 void yield()
 {
-    printf("execution_time -----> %d\n", execution_time / 1000);
+    // printf("execution_time -----> %d\n", execution_time / 1000);
     uint32_t next_thread = (current_thread + 1) % NUM_THREADS;
     current_thread = next_thread;
 
